@@ -3,13 +3,13 @@
 CurseForge Link: [->Here<-](https://www.curseforge.com/minecraft/modpacks/dawn-craft "DawnCraft - An Adventure RPG Modpack")
 Discord Dev. DawnCraft: [->Here<-](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fUjPx5jzd3m)
 
-ModPack Version: 1.15 Soon 1.16...
+ModPack Version: 1.15 - 1.16...
 
 
 
 ### Work Progress (Eng)
 
- - FTB Quests: 10/12. 
+ - FTB Quests: 12/12. 
  - Quest Giver (Quest): 0/124.
  - Mods: don`t planed now...
 
