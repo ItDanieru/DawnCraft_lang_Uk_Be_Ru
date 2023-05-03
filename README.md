@@ -2,7 +2,7 @@
 
 CurseForge Link: [Here](https://www.curseforge.com/minecraft/modpacks/dawn-craft "DawnCraft - An Adventure RPG Modpack")
 
-ModPack Version: 1.15
+ModPack Version: 1.15 Soon 1.16...
 
 
 
