@@ -1,0 +1,12 @@
+{
+  "reputation": 25,
+  "icon": "minecraft:diamond",
+  "start": {
+    "title": {
+      "text": "test for quest armorer."
+    },
+    "description": {
+      "text": "test for $(red) quest armorer $()."
+    }
+  }
+}

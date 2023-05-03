@@ -1,0 +1,37 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:potato",
+  "start": {
+    "title": {
+      "text": "quest fletcher"
+    },
+    "description": {
+      "text": "fetch some string"
+    }
+
+  },
+  "complete": {
+    "title": {
+      "text": "quest fletcher completion text"
+    },
+    "description": {
+      "text": "That will do thank you"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:string"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @s 100",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:honeycomb",
+  "start": {
+    "title": {
+      "text": "beekeeper"
+    },
+    "description": {
+      "text": "beekeeper"
+    }
+
+  },
+  "complete": {
+    "title": {
+      "text": "beekeeper"
+    },
+    "description": {
+      "text": "beekeeper"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "tag": "minecraft:honeycomb"
+      },
+      "id": "quest_giver:item_stack",
+      "amount": 9
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @s only minecraft:adventure/adventuring_time",
+      "id": "quest_giver:command"
+    }
+  ]
+}

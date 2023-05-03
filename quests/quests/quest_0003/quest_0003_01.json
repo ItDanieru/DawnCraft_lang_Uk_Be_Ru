@@ -1,0 +1,34 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:potato",
+  "start": {
+    "title": {
+      "text": "quest cartographer"
+    },
+    "description": {
+      "text": "find the mansion"
+    }
+
+  },
+  "complete": {
+    "title": {
+      "text": "quest cartographer completion text"
+    },
+    "description": {
+      "text": "You found the structure"
+    }
+  },
+  "tasks": [
+    {
+      "structure": "minecraft:mansion",
+      "id": "quest_giver:structure"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @s only minecraft:adventure/adventuring_time",
+      "id": "quest_giver:command"
+    }
+  ]
+}

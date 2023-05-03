@@ -1,0 +1,27 @@
+{
+  "reputation": 25,
+  "icon": "minecraft:diamond",
+  "start": {
+    "title": {
+      "text": "quest guildmaster."
+    },
+    "description": {
+      "text": "quest guildmaster."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_sword"
+      },
+      "id": "quest_giver:craft",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @s only minecraft:adventure/adventuring_time",
+      "id": "quest_giver:command"
+    }
+  ]
+}

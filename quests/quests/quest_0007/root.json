@@ -1,0 +1,12 @@
+{
+  "reputation": 25,
+  "icon": "minecraft:diamond",
+  "start": {
+    "title": {
+      "text": "quest fletcher."
+    },
+    "description": {
+      "text": "quest fletcher."
+    }
+  }
+}

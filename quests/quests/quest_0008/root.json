@@ -1,0 +1,12 @@
+{
+  "reputation": 25,
+  "icon": "minecraft:diamond",
+  "start": {
+    "title": {
+      "text": "quest leatherworker."
+    },
+    "description": {
+      "text": "quest leatherworker."
+    }
+  }
+}

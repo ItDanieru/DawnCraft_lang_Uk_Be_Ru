@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:potato",
+  "start": {
+    "title": {
+      "text": "quest farmer"
+    },
+    "description": {
+      "text": "Find a good place to start a farm"
+    }
+
+  },
+  "complete": {
+    "title": {
+      "text": "quest farmer completion text"
+    },
+    "description": {
+      "text": "Wonderful this is a perfect place to start a farm"
+    }
+  },
+  "tasks": [
+    {
+      "biome": "minecraft:plains",
+      "id": "quest_giver:biome"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:diamond_hoe"
+      },
+      "id": "quest_giver:item"
+    },
+    {
+      "command": "/give @s minecraft:cooked_mutton 9",
+      "id": "quest_giver:command"
+    }
+  ]
+}

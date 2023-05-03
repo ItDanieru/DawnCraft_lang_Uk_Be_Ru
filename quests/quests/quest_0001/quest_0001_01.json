@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:iron_chestplate",
+  "start": {
+    "title": {
+      "text": "quest armorer"
+    },
+    "description": {
+      "text": "make me a iron chestplate"
+    }
+
+  },
+  "complete": {
+    "title": {
+      "text": "quest armorer completion text"
+    },
+    "description": {
+      "text": "Thank you for making a iron chest plate"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_chestplate"
+      },
+      "id": "quest_giver:craft",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:diamond_chestplate"
+      },
+      "id": "quest_giver:item"
+    },
+    {
+      "command": "/give @s minecraft:cooked_mutton 9",
+      "id": "quest_giver:command"
+    }
+  ]
+}

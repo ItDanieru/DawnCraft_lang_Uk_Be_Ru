@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:potato",
+  "start": {
+    "title": {
+      "text": "quest fisherman"
+    },
+    "description": {
+      "text": "capture some fish"
+    }
+
+  },
+  "complete": {
+    "title": {
+      "text": "quest fisherman completion text"
+    },
+    "description": {
+      "text": "quest fisherman completion text"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "tag": "minecraft:fishes"
+      },
+      "id": "quest_giver:item_stack",
+      "amount": 9
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:pufferfish_bucket"
+      },
+      "id": "quest_giver:item"
+    },
+    {
+      "command": "/give @s minecraft:cooked_mutton 9",
+      "id": "quest_giver:command"
+    }
+  ]
+}

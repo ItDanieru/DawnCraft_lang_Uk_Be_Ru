@@ -1,0 +1,37 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:potato",
+  "start": {
+    "title": {
+      "text": "quest guildmaster"
+    },
+    "description": {
+      "text": "quest guildmaster"
+    }
+
+  },
+  "complete": {
+    "title": {
+      "text": "quest guildmaster completion text"
+    },
+    "description": {
+      "text": "quest guildmaster completion text"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_sword"
+      },
+      "id": "quest_giver:craft",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @s only minecraft:adventure/adventuring_time",
+      "id": "quest_giver:command"
+    }
+  ]
+}

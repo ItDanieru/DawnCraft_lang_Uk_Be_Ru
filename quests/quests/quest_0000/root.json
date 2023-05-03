@@ -1,0 +1,12 @@
+{
+  "reputation": 25,
+  "icon": "minecraft:diamond",
+  "start": {
+    "title": {
+      "text": "Something went wrong."
+    },
+    "description": {
+      "text": "Something went wrong, the questgiver doesn't want to trade with you anymore."
+    }
+  }
+}
