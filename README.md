@@ -1,6 +1,7 @@
 ## DawnCraft ModPack for Ukrainian, Belarusian, Russian player Localization (W.I.P)
 
-CurseForge Link: [Here](https://www.curseforge.com/minecraft/modpacks/dawn-craft "DawnCraft - An Adventure RPG Modpack")
+CurseForge Link: [->Here<-](https://www.curseforge.com/minecraft/modpacks/dawn-craft "DawnCraft - An Adventure RPG Modpack")
+Discord Dev. DawnCraft: [->Here<-](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fUjPx5jzd3m)
 
 ModPack Version: 1.15 Soon 1.16...
 
