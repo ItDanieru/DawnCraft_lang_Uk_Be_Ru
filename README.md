@@ -5,6 +5,8 @@ Discord Dev. DawnCraft: [->Here<-](https://www.curseforge.com/linkout?remoteUrl=
 
 ModPack Version: 1.15 - 1.16...
 
+Хочу отдельно поблагодарить АpmaGEEDoH, за предоставленную наработку перевода модов.
+
 
 
 ### Work Progress (Eng)
