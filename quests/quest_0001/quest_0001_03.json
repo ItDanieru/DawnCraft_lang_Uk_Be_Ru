@@ -7,15 +7,15 @@
       "text": "Hey there."
     },
     "description": {
-      "text": "Hey there. Did you find the pendant? They usually hide valuables under tables."
+      "text": "Привет. Ты нашел кулон? Обычно они прячут ценные вещи под столами."
     }
   },
   "complete": {
     "title": {
-      "text": "Finally..."
+      "text": "Наконец-то..."
     },
     "description": {
-      "text": "Finally, Juan... I got it back... I didn't break my vow... Oh, here ya go. Thank you for this, it means a lot to me."
+      "text": "Наконец-то, Джуан... Я получил его обратно... Я не нарушал своей клятвы... О, вот и вы. Спасибо тебе за это, это очень много значит для меня."
     }
   },
   "tasks": [
@@ -32,7 +32,7 @@
       "item": {
  	   "type": "minecraft:item_nbt",
            "item": "minecraft:iron_chestplate",
-           "nbt":  "{display:{Name:'[{\"text\":\"Oathkeeper\",\"italic\":false}]',Lore:['[{\"text\":\"A chestplate the armorer specifically made for his champion.\",\"italic\":false}]']},Enchantments:[{id:mending,lvl:1},{id:protection,lvl:2}]}"
+           "nbt":  "{display:{Name:'[{\"text\":\"Oathkeeper\",\"italic\":false}]',Lore:['[{\"text\":\"Нагрудник, который оружейник специально изготовил для чемпиона.\",\"italic\":false}]']},Enchantments:[{id:mending,lvl:1},{id:protection,lvl:2}]}"
       },
       "id": "quest_giver:item",
       "times": 1
