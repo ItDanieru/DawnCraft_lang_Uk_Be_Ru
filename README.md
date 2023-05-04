@@ -10,7 +10,7 @@ ModPack Version: 1.15 - 1.16...
 ### Work Progress (Eng)
 
  - FTB Quests: 12/12. 99% (It remains to make minor edits to the design)
- - Quest Giver (Quest): 0/124. 0%
+ - Quest Giver (Quest): 2/124. 0%
  - Mods: don`t planed now...
 
 ### Прогресс Работы (Rus)
