@@ -19,7 +19,7 @@ ModPack Version: 1.15 - 1.16...
  - Quest Giver (Квесты): 0/124 0%
  - Моды: Пока не планируется...
 
-###FAQ
+### FAQ
 - How Download? Как Скачать?
 ![image](https://user-images.githubusercontent.com/54354556/236098543-9721d28f-30d3-41e7-8386-f704b45d3036.png)
 1. Нажать на кнопку code.
