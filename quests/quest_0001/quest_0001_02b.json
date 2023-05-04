@@ -4,10 +4,10 @@
   "icon": "minecraft:wooden_sword",
   "start": {
     "title": {
-      "text": "Come to think of it..."
+      "text": "Если подумать об этом..."
     },
     "description": {
-      "text": "Come to think of it... There's a way for me to repay you. Can you fetch me a piece of paper so I can draw you a map?"
+      "text": "Если подумать об этом... У меня есть способ отплатить тебе. Не могли бы вы принести мне лист бумаги, чтобы я мог нарисовать вам карту?"
     }
   }
 }
