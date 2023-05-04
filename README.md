@@ -18,6 +18,15 @@ ModPack Version: 1.15 - 1.16...
  - FTB Quests: 12/12 99% (Осталось внести мелкие правки в оформление) 
  - Quest Giver (Квесты): 0/124 0%
  - Моды: Пока не планируется...
-![image](https://user-images.githubusercontent.com/54354556/236096104-6534ff2d-6a01-46b8-a86b-d2ffb3f41c0b.png)
 
+###FAQ
+- How Download? Как Скачать?
+![image](https://user-images.githubusercontent.com/54354556/236098543-9721d28f-30d3-41e7-8386-f704b45d3036.png)
+1. Нажать на кнопку code.
+2. Нажать Download ZIP.
+- How Setup? Как Установить?
+![Setup FTB Quest Ru lang](https://user-images.githubusercontent.com/54354556/236097412-1678b4de-d2bf-401e-a064-7de7a7976dce.png)
+1. в <modpack_path>\config\ftbquests\quests заменить папку chapters. (in <mod pack_path>\config\php quests\quests, replace the chapters folder)
+2. Потвердить замену Файлов. (Confirm file replacement.)
+3. ッ
  ...
