@@ -4,18 +4,18 @@
   "icon": "minecraft:iron_ingot",
   "start": {
     "title": {
-      "text": "Fetch Me Something!"
+      "text": "Принеси мне что-нибудь!"
     },
     "description": {
-      "text": "Hey there! Have you got $(red)4 iron ingots$() for me yet?"
+      "text": "Эй! У тебя уже есть для меня $(red)4 железных слитка$()??"
     }
   },
   "complete": {
     "title": {
-      "text": "Thank you!"
+      "text": "Cпасибо!"
     },
     "description": {
-      "text": "Thank you! Now I'll finally be able to make the armor for that guard... He wouldn't shut up about it! I don't have anything for you right now, but I swear I'll pay you back someday!"
+      "text": "Спасибо! Теперь я, наконец, смогу изготовить доспехи для этого охранника... Он бы не стал молчать об этом! Прямо сейчас у меня ничего нет для тебя, но я клянусь, что когда-нибудь верну тебе долг!"
     }
   },
   "tasks": [
