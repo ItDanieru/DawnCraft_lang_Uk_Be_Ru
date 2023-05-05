@@ -4,18 +4,18 @@
   "icon": "minecraft:iron_ingot",
   "start": {
     "title": {
-      "text": "Spirit Hunting"
+      "text": "Охота на духов"
     },
     "description": {
-      "text": "Couldn't kill the $(red)5 Possessed Armor$() yet? Well, try harder, haha!"
+      "text": "До сих пор не убил $(red)5 Одержимых Доспехов$()? Что ж, старайся усерднее, хе-хе!"
     }
   },
   "complete": {
     "title": {
-      "text": "Here."
+      "text": "Здесь."
     },
     "description": {
-      "text": "Haha, you actually did it! Mad man you are, but I like it! Here, take your reward, it's well-deserved!"
+      "text": "Хех, ты действительно сделал это! ты безумный, но мне это нравится! Вот, возьми свою награду, ты её вполне заслужил!"
     }
   },
   "tasks": [ 
