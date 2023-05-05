@@ -3,10 +3,10 @@
   "icon": "minecraft:iron_ingot",
   "start": {
     "title": {
-      "text": "Hey!"
+      "text": "Привет!"
     },
     "description": {
-      "text": "Hey there boy! Up for a lil' challenge?"
+      "text": "Привет, парень! как на счет небольшого испытания?"
     }
   }
 }
