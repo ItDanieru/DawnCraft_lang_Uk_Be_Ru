@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "$(red)Золотая Звезда$() - вид кактуса с оранжевыми листьями. Сможешь принести мне такой?"
+    }
+  }
+}

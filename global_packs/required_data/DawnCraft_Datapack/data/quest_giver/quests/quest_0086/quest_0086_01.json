@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0086_01b",
+  "reputation": 37,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Срочная Просьба"
+    },
+    "description": {
+      "text": "Ты уже принёс $(red)16 железных слитков$()? Пожалуйста, поторопись."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Спасибо, я знаю, что мне не следует просить Авантюриста помочь со сбором ресурсов... Но у меня нет выбора. Армия разбойников приближается, они скоро будут у деревни... Дай мне знать, если будет желание взять контракт на уничтожение, я буду рад предложить тебе его."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 16
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

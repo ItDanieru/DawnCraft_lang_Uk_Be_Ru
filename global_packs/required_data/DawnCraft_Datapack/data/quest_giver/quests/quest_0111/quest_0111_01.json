@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0111_01b",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Снова здравствуй!"
+    },
+    "description": {
+      "text": "У тебя есть бумага? Я покажу, где он находится."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Здесь."
+    },
+    "description": {
+      "text": "Здесь. Ты легко заметишь его, если подойдешь поближе. Удачи, и принеси мне его станки."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+  {
+      "command": "/loot give @p loot minecraft:guard4",
+      "id": "quest_giver:command"
+    }
+  ]
+}

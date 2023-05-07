@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Я до смерти хочу выпить $(red)бутылочку мёда$()! Не мог бы ты принести мне одну?"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "quest_giver:quest_0115_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Предложение"
+    },
+    "description": {
+      "text": "6 изумрудов и я покажу тебе, где находится Незеритовый монстр."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Держи, ни пуха! Помни, эта карта будет работать только если ты откроешь её в Незере. Открыв её здесь, ты получишь только бесполезную пустую карту. Сбивает с толку, не так ли?"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 6
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_1"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

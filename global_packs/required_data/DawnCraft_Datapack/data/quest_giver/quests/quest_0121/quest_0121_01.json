@@ -1,0 +1,39 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Карта к Хранителю Энда"
+    },
+    "description": {
+      "text": "Бесплатный сыр только в мышеловке, друг мой. Дай мне 5 Изумрудов, и я укажу тебе направление к Хранителю Энда."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Отлично, держи. Помни, не открывай эту карту, пока не окажешься в Энде. И не говори потом, что я не предупреждал."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_3"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

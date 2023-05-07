@@ -1,0 +1,39 @@
+{
+  "parent": "quest_giver:quest_0116_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Предложение"
+    },
+    "description": {
+      "text": "4 Изумруда и я покажу, где найти нужные для призыва Игниса материалы."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Их можно найти здесь. Не призывайте эту мерзость вблизи деревни. И помните, эта карта будет работать, только если вы откроете её в Незере. Открыв её в Верхнем мире, вы получите только пустую карту. Не спрашивайте меня почему... Я понятия не имею."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "amount": 4
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "simple_mobs:rolled_map_2"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+	"parent": "quest_giver:quest_0109_01",
+	"reputation": 6,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "Украденный Ребёнок"
+		},
+		"description": {
+			"text": "Спаси ребёнка, пожалуйста. Верни его домой."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Украденный Ребёнок: Завершено"
+		},
+		"description": {
+			"text": "Потрясающе! Ты действительно справился! Честно говоря, я не был до конца уверен, что ребёнок жив... Хорошо, я обучу тебя новому навыку - «Мастер Меча». Это лучшее, что я могу тебе предложить."
+		}
+	},
+	"tasks": [{
+		"id": "afptweaks:follow_quest",
+		"structure": "#minecraft:village"
+	}],
+	"rewards": [{
+			"command": "/give @p epicfight:skillbook{skill:\"epicfight:swordmaster\"}",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:villager @p 2",
+			"id": "quest_giver:command"
+		}
+	]
+}

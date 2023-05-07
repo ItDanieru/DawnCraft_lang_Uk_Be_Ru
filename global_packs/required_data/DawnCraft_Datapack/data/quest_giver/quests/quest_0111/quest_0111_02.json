@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0111_01",
+  "reputation": 13,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Ну и?"
+    },
+    "description": {
+      "text": "Ты уже убил $(red)Гиганта$()? Принеси мне его останки."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Хорошая работа! Ты принёс его глаз... Итак, в качестве оплаты я обучу тебя защитному навыку - «Блоку». Это один из важнейших навыков, что ты можешь освоить в этом измерении."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:giant_eye_fragment"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:guard\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

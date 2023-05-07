@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 6,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Ну и?"
+    },
+    "description": {
+      "text": "Ты уже принёс $(red)10 горстей редстоуновой пыли$()"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Спасибо, вот твоя награда."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:redstone"
+      },
+      "id": "quest_giver:gift",
+      "times": 10
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_engineer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Можешь принести мне $(red)1 Спороцвет$(), если он тебе повстречается?"
+    }
+  }
+}

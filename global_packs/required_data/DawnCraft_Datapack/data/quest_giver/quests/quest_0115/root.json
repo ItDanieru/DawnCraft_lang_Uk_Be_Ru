@@ -1,0 +1,12 @@
+{
+  "reputation": 5,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Предложение"
+    },
+    "description": {
+      "text": "Эй, товарищ Авантюрист! У меня для тебя предложение."
+    }
+  }
+}

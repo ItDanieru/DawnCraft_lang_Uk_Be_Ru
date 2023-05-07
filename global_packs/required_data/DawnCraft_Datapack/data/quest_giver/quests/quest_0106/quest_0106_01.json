@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "So?"
+    },
+    "description": {
+      "text": "Для работы мне нужен $(red)железный топор$()!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Спасибо. 4 Изумрудов будет достаточно?"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:iron_axe"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:village @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    }
+  ]
+}

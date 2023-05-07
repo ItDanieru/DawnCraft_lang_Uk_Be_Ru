@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:log",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Эй, парень, не мог бы ты достать мне $(red)ледяное бревно$() из Эвербрайта?"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "Hey!"
+    },
+    "description": {
+      "text": "Можешь принести мне $(red)1 цветок Раффлезии$(), если повстречаешь её?"
+    }
+  }
+}

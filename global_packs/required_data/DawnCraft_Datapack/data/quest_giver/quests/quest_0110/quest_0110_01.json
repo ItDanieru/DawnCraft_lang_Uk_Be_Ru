@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0110_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Снова здравствуй!"
+    },
+    "description": {
+      "text": "Храбрец. У тебя найдётся бумага? Я покажу, где его пещера."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Здесь."
+    },
+    "description": {
+      "text": "Вот здесь. Этой информацией поделился священник, так что я не уверен, действительно ли монстр живёт именно там. В любом случае, отыщи и убей его. Не забудь прихватить какой-нибудь трофей."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+  {
+      "command": "/loot give @p loot minecraft:guard3",
+      "id": "quest_giver:command"
+    }
+  ]
+}

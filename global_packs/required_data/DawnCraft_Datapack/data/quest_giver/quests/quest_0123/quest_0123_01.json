@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0123_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Скалк"
+    },
+    "description": {
+      "text": "Ох, уже вернулся? Нашел $(red)Cкалковый Сенсор$() ?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Благодарю!"
+    },
+    "description": {
+      "text": "Это... выглядит так странно. Ты наткнулся на Хранителя? Ну, я полагаю, что нет, учитывая, что ты все еще жив. В любом случае, вот твоя награда. Это убережет тебя от слизней."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "wildbackport:sculk_shrieker"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "dannys_expansion:gelatinous_diplomacy"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_miner",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "parent": "quest_giver:quest_0112_01",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Снова здравствуй!"
+    },
+    "description": {
+      "text": "Ты справился? Ты убил $(red)полу-волка?$()"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Вот."
+    },
+    "description": {
+      "text": "Спасибо. Поверю тебе на слово. Я рад, что больше никто не станет жертвой это твари."
+    }
+  },
+  "tasks": [
+    {
+      "entity": "simple_mobs:patronwerewolf",
+      "id": "quest_giver:kill",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_miner",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:redstone",
+  "start": {
+    "title": {
+      "text": "Ну и?"
+    },
+    "description": {
+      "text": "Прошу прощения за нечеткое описание... Но дело в том, что я не знаю, где находится это сооружение и как оно выглядит. Это замок с хитроумными механизмами. Я думаю, вы поймете, когда найдёте его."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Это восхитительно! Однако я не думаю, что эти поселенцы сами построили его, у них ведь нет инженера... Кто-то удерживает их там. В любом случае, большое спасибо. Держите печеньку."
+    }
+  },
+  "tasks": [
+	{
+	   "id": "afptweaks:advancement",
+	   "advancement": "custom:castle"
+	}
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:cookie"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

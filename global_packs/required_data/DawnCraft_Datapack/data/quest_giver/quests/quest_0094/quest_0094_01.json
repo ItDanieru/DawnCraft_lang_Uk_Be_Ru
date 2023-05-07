@@ -1,0 +1,39 @@
+{
+  "parent": "quest_giver:quest_0094_01b",
+  "reputation": 52,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "So?"
+    },
+    "description": {
+      "text": "Возвращайся, когда приготовишь $(red)Крайское Наслаждение$(). Я щедро тебе заплачу."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Этот вкус...! Прямо как у мамы... Спасибо, Авантюрист, ты даже не представляешь, как я тебе благодарен. Вот, возьми это. Это катана, выкованная с помощью энергии Энда. Сомневаюсь, что существует оружие сильнее этого."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "enlightened_end:ennegel_pasta"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "scattered_weapons:darkkatana"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}
