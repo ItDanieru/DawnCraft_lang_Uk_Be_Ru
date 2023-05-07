@@ -1,5 +1,5 @@
 ## DawnCraft ModPack for Ukrainian, Belarusian, Russian players Localization.
-
+## ссылки | Links
 <a href="https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fUjPx5jzd3m">
     <img height="48" img src="Для Github/Discord.png">
 </a>
@@ -30,7 +30,7 @@ ModPack Version: 1.15 - 1.16...
 - DawnCraft Mobs lang file 100%
  * Другие моды, сборки переведены на 25%
 
-### FAQ
+## FAQ
 - How Download? Как Скачать?
 ![image](https://user-images.githubusercontent.com/54354556/236098543-9721d28f-30d3-41e7-8386-f704b45d3036.png)
 1. Нажать на кнопку code.
