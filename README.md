@@ -1,4 +1,4 @@
-### DawnCraft ModPack for Ukrainian, Belarusian, Russian players Localization.
+## DawnCraft ModPack for Ukrainian, Belarusian, Russian players Localization.
 
 <a href="https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fUjPx5jzd3m">
     <img height="48" img src="Для Github/Discord.png">
