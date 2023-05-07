@@ -39,7 +39,7 @@ ModPack Version: 1.15 - 1.16...
 1. Нажать на кнопку code.
 2. Нажать Download ZIP.
 - How Setup? Как Установить?
-<img height="1200" img src="Для Github/2023-05-07_13-15-49.png">
+<img height="720" img src="Для Github/2023-05-07_13-15-49.png">
 1. Содержимое архива Закинуть в папку сборки. (Throw the contents of the archive into the assembly folder.)
 2. Потвердить замену Файлов. (Confirm file replacement.)
 3. ッ
