@@ -23,6 +23,8 @@ ModPack Version: 1.15 - 1.16...
 - DawnCraft Mobs lang file 100%
 * Other mods, modpack translate 25%
 
+- For ModPack Version: 1.15 - 1.16...
+
 ## (🇷🇺) Прогресс Работы  (🇷🇺)
 - FTB Quests: 12/12. 100%
 - Quest Giver (Quest): 124/124 100%
@@ -30,6 +32,7 @@ ModPack Version: 1.15 - 1.16...
 - DawnCraft Mobs lang file 100%
  * Другие моды, сборки переведены на 25%
 
+- Для Версии Сборки: 1.15 - 1.16...
 ## FAQ
 - How Download? Как Скачать?
 ![image](https://user-images.githubusercontent.com/54354556/236098543-9721d28f-30d3-41e7-8386-f704b45d3036.png)
