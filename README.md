@@ -6,7 +6,7 @@
 <a href="https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fUjPx5jzd3m">
     <img height="38" img height="38" img src="Для Github/Discord.png">
 </a>
-<a href="https://www.curseforge.com/minecraft/modpacks/dawn-craft "DawnCraft - An Adventure RPG Modpack"">
+<a href="https://www.curseforge.com/minecraft/modpacks/dawn-craft"DawnCraft - An Adventure RPG Modpack"">
     <img height="38" img height="38" img src="Для Github/CurseForge.svg">
 </a>
 <a href="https://t.me/ItDanieru">
