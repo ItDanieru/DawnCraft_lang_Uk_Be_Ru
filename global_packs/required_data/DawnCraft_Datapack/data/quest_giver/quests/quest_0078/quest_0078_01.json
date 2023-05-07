@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 48,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "Камни из Других Измерений"
+    },
+    "description": {
+      "text": "Когда попадешь в Энд, не забудь прихватить $(red)Эндерняк$() для меня."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Хм... качество... неплохое. Я найду ему хорошее применение, спасибо!"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:end_stone"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_mason",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    }
+  ]
+}

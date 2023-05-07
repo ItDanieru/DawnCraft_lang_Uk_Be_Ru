@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 40,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Возвращение Дорогой Вещи"
+    },
+    "description": {
+      "text": "Пожалуйста, дайте мне лист бумаги, чтобы я нарисовал тебе карту."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Здесь."
+    },
+    "description": {
+      "text": "Прости за беспокойство. Я хочу, чтобы ты пошёл вот сюда. Там есть книга, которая мне принадлежала. Раньше это место было храмом, наполненным учёными со всего измерения, но я не знаю, как дела там обстоят сейчас. Пожалуйста, действуй осторожно и принеси мне мою книгу."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+  {
+      "command": "/loot give @p loot minecraft:librarian1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

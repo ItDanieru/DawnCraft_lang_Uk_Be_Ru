@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Добыча Перьев"
+    },
+    "description": {
+      "text": "Ты уже нашел $(red)2 страусиных пера$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Хм... Кажется, качество не особо хорошее. Я посмотрю, смогу ли я использовать их по-другому. В любом случае, вот, за твои труды."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:roadrunner_feather"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_fletcher",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    }
+  ]
+}

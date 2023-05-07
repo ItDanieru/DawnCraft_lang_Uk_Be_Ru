@@ -1,0 +1,59 @@
+{
+	"parent": "quest_giver:quest_0073_01b",
+	"reputation": 8,
+	"icon": "minecraft:book",
+	"start": {
+		"title": {
+			"text": "Изучение Лесного Хозяйства"
+		},
+		"description": {
+			"text": "3 типа листьев, которые необходимо собрать: $(red)Сумрачные листья, Кленовые листья, листья Звездоцвета$()."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Спасибо!"
+		},
+		"description": {
+			"text": "Это восхитительно! Как так вышло, что у растений, растущих в совершенно разных условиях, есть общие черты? В любом случае, вот твоя награда."
+		}
+	},
+	"tasks": [{
+			"item": {
+				"item": "blue_skies:dusk_leaves"
+			},
+			"id": "quest_giver:gift",
+			"times": 1
+		},
+		{
+			"item": {
+				"item": "blue_skies:maple_leaves"
+			},
+			"id": "quest_giver:gift",
+			"amount": 1
+		},
+		{
+			"item": {
+				"item": "blue_skies:starlit_leaves"
+			},
+			"id": "quest_giver:gift",
+			"amount": 1
+		}
+	],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_librarian",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:villager @p 3",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "ars_nouveau:source_gem"
+			},
+			"id": "quest_giver:item",
+			"times": 20
+		}
+	]
+}

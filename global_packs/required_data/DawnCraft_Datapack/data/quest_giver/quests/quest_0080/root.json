@@ -1,0 +1,12 @@
+{
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Привет, не мог бы ты дать мне ножницы? Мои только что сломались."
+    }
+  }
+}

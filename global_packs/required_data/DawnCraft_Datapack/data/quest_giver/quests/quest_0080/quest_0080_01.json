@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Создание Ножниц"
+    },
+    "description": {
+      "text": "Ты принёс $(red)ножницы$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Большое спасибо!"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:shears"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_shepherd",
+      "id": "quest_giver:command"
+    }
+  ]
+}

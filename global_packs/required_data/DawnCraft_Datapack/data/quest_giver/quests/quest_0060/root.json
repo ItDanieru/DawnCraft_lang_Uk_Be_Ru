@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Разбираешься в изготовлении лодок? В любом случае, не хочешь помочь?"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 8,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "Помощь"
+    },
+    "description": {
+      "text": "Фантастика. Не мог бы ты приготовить $(red)ветчину в медовой глазури$()? Мы с друзьями умираем от желания попробовать её снова."
+    }
+  }
+}

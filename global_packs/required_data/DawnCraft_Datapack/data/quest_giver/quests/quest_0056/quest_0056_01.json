@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0056_01b",
+  "reputation": 14,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Странная Просьба"
+    },
+    "description": {
+      "text": "Встречал ли ты $(red)больших стражей$()? Если да, то дай мне шип."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Это... необычно. Океан полон тайн... Я слышал истории о гигантских кальмарах, думаю, это тоже правда. В любом случае, вот твоя награда. Спасибо за это."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "progressivebosses:elder_guardian_spike"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

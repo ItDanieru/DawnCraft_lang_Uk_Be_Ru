@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Здравствуй, Авантюрист, не могли бы вы мне помочь?"
+    }
+  }
+}

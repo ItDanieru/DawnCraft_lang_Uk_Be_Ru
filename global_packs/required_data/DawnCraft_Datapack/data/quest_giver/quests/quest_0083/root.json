@@ -1,0 +1,12 @@
+{
+  "reputation": 13,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Эй, Авантюрист, похоже, ты хорошо умеешь находить вещи! Не хочешь мне помочь?"
+    }
+  }
+}

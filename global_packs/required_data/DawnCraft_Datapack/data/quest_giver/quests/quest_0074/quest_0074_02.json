@@ -1,0 +1,50 @@
+{
+  "parent": "quest_giver:quest_0074_01",
+  "reputation": 4,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Ну и?"
+    },
+    "description": {
+      "text": "Мне нужна еще одна ваша $(red)сфера духа$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Ха-ха... молодой человек, вы слишком доверчивы. Не доверяйте тому, с кем вы едва разговаривали. Я верну вам сферы, так как мне неловко, но помните: Не все так добры, как я."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "paraglider:spirit_orb"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "item": {
+        "item": "minecraft:cookie"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

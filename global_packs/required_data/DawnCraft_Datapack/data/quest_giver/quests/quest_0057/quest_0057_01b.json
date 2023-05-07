@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Создание Удочки"
+    },
+    "description": {
+      "text": "Моя удочка почти сломалась... не мог бы ты сделать мне новую? А то мастера сейчас нет в городе..."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0058_01b",
+  "reputation": 15,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "Охотничье Задание"
+    },
+    "description": {
+      "text": "(*Вы понимаете, что акулы нападают не так; И что только некоторые из самых пассивных видов акул, такие как $(red)акула-молот$(), оставляют зубы после смерти. Но вы решили промолчать*)"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Ха-ха-ха-ха-ха... Я выгравирую имя сестры на этом зубе и буду носить его как кулон. Спасибо, Авантюрист, вот твоя награда."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:shark_tooth"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:salmon"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Авантюрист, у меня для тебя небольшое задание. Скажи, когда будешь готов."
+    }
+  }
+}

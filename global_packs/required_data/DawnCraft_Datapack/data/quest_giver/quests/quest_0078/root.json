@@ -1,0 +1,12 @@
+{
+  "reputation": 48,
+  "icon": "minecraft:stone",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Если ты когда-нибудь попадешь в Энд, не мог бы ты достать мне $(red)Эндерняк$()?"
+    }
+  }
+}

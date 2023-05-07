@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0063_01b",
+  "reputation": 0,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Ремесло Стрелка"
+    },
+    "description": {
+      "text": "Ты уже принёс $(red)4 еловых бревна$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Хорошая работа. Вот Изумруд за твою работу."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:spruce_log"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0064_01b",
+  "reputation": 18,
+  "icon": "supplementaries:slingshot",
+  "start": {
+    "title": {
+      "text": "Изготовление Рогатки"
+    },
+    "description": {
+      "text": "Еще не смог сделать $(red)рогатку$()? Да, понимаю... Хорошую рогатку, как ни странно, сделать трудно."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Да, это именно то, что я себе представлял! Хм... Выглядит не особо впечатляюще. Похоже, она использует камни в качестве боеприпасов... Ну, вот, держи, на самом деле, мне она не очень нужна. Спасибо, что показал её мне!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "supplementaries:slingshot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

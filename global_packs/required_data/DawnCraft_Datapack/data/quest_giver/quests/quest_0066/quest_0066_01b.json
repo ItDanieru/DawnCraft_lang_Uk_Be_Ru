@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 24,
+  "icon": "minecraft:leather",
+  "start": {
+    "title": {
+      "text": "Помощь"
+    },
+    "description": {
+      "text": "Мне нужно, чтобы ты собрал $(red)2 клочка меха чёрного медведя$(). Возвращайся, когда получишь товар."
+    }
+  }
+}

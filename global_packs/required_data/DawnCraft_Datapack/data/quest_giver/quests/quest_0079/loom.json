@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Разблокируйте Ткацкий станок"
+    },
+    "description": {
+      "text": "Без проблем, друг. Дай мне 15 Изумрудов, и я научу тебя пользоваться ткацким станком!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Вот так!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add agility level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

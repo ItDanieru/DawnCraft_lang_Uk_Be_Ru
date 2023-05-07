@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 2,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Пшеницу, Пожалуйста!"
+    },
+    "description": {
+      "text": "Вы уже принесли $(red)пшеницу$()? На ферме её должно быть достаточно."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Спасибо. Мне нечем отплатить вам... может, вы примете эту шерсть?"
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:wheat"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:white_wool"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_shepherd",
+      "id": "quest_giver:command"
+    }
+  ]
+}

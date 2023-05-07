@@ -1,0 +1,44 @@
+{
+	"parent": "quest_giver:quest_0059_01",
+	"reputation": 4,
+	"icon": "minecraft:cod",
+	"start": {
+		"title": {
+			"text": "Ну и?"
+		},
+		"description": {
+			"text": "Ты уже принес $(red)родстоуновую пыль$()? Мне нужна всего лишь 1 горсть."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Спасибо!"
+		},
+		"description": {
+			"text": "Спасибо! Вот, за хлопоты."
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:redstone"
+		},
+		"id": "quest_giver:gift",
+		"times": 1
+	}],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_fisherman",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:villager @p 1",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 2
+		}
+	]
+}
