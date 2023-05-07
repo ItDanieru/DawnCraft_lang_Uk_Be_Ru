@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0014_01",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Путь к Хранителям Ока"
+    },
+    "description": {
+      "text": "Хорошо, похоже, ты готов к приключениям! Готов найти своё первое Око?"
+    }
+  }
+}

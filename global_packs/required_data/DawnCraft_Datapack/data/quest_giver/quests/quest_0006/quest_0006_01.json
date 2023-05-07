@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Разблокируйте удочку"
+    },
+    "description": {
+      "text": "Готов научитсья рыбачить? Принеси мне 15 Изумрудов!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Не так уж и сложно, правда? Только не размахивай слишком сильно, это отпугивает рыбу."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add fishing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:dirt",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Эй. Ты Авантюрист, верно? Есть минутка?"
+    }
+  }
+}

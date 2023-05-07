@@ -1,0 +1,12 @@
+{
+  "reputation": 4,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Авантюрист, можешь помочь мне раздобыть 5 эндер-жемчужин?"
+    }
+  }
+}

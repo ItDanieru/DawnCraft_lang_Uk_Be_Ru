@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_04",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Путь к Хранителям Ока"
+    },
+    "description": {
+      "text": "У нас очень мало информации о Рыцаре Роберте в его нынешнем состоянии, но он должен быть довольно ослаблен после последней войны... Не забудь захватить эндер-жемчуг. У него есть скверная атака, от которой можно спастись только телепортацией."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Путь к Хранителям Ока"
+    },
+    "description": {
+      "text": "Вау, ты победил Рыцаря Роберта, хех. Суровый воин? В свое время он был одним из самых страшных противников, с кем только можно было столкнуться на дуэли. Полагаю, возраст, наконец, взял своё. Что ж, следующий Хранитель Ока - ещё один человек. Сейчас он мирно живет на своей ферме... Вот карта его местонахождения."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:rogue_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add crafting level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add engineering level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:knight_rober_quest_complete",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

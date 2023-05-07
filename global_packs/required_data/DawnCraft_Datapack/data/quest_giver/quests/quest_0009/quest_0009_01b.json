@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Запрос на добычу"
+    },
+    "description": {
+      "text": "Не мог бы ты помочь мне найти 4 чернильных мешка?"
+    }
+  }
+}

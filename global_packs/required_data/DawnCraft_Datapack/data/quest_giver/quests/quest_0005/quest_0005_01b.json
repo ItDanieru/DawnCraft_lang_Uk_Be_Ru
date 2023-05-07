@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Совет"
+    },
+    "description": {
+      "text": "Мои драгоценные посевы в последнее время плохо растут... Как считаете, не могли бы вы достать $(red)8 костей$(), чтобы я сделал удобрения?"
+    }
+  }
+}

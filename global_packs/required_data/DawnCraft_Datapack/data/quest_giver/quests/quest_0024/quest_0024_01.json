@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0024_01b",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Снова привет!"
+    },
+    "description": {
+      "text": "Ах, чуть не забыл. Можешь принести мне листок бумаги? Я отмечу местоположение их убежища."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Здесь."
+    },
+    "description": {
+      "text": "Вот здесь. Пожалуйста, поторопись! Мы не знаем, что они хотят сделать с ребёнком."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+     }
+  ],
+  "rewards": [
+  {
+      "command": "/loot give @p loot minecraft:guard1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

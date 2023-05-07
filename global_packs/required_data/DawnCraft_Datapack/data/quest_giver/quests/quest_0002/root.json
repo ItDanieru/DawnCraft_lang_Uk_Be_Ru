@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Свободен?"
+    },
+    "description": {
+      "text": "Не занят? Авантюрист, не мог бы ты принести мне кое-что?"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 13,
+  "icon": "minecraft:arrow",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Нужна твоя помощь в добыче кое-чего, Авантюрист."
+    }
+  }
+}

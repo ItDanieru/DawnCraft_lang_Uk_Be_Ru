@@ -1,0 +1,29 @@
+{
+  "parent": "quest_giver:quest_0014_09",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "Конец Путешествия"
+    },
+    "description": {
+      "text": "У меня больше нет для тебя информации, мой друг. Следуй своему призванию."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Конец... это всего лишь Начало?"
+    },
+    "description": {
+      "text": "Итак... ты одолел дракона. Полагаю, это сделает тебя новым правителем королевства. Поздравляю, храбрый завоеватель. Ты сделал... всё, что мог. А теперь, прошу меня извинить."
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "minecraft:end/kill_dragon"
+    }
+  ],
+  "rewards": [
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:poppy",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Ты можешь достать мне $(red)1 Траву Душ$()? Ее можно найти в Измерении Незера."
+    }
+  }
+}

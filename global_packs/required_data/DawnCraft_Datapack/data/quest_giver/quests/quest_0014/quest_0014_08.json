@@ -1,0 +1,51 @@
+{
+  "parent": "quest_giver:quest_0014_07",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Путь к Хранителям Ока"
+    },
+    "description": {
+      "text": "Рыцарь-Страж веками охранял Око. Никто из известных мне Авантюристов не смог одолеть его... Я слышал, что он владеет ключом, который пробуждает дремлющее Око."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Путь к Хранителям Ока"
+    },
+    "description": {
+      "text": "Невероятно. Даже Рыцарь-Страж не сравнится с тобой... Ну, ты приближаешься к концу своего путешествия. Как ощущения?.. В любом случае, тебе нужно призвать следующего Хранителя Ока. Вот, возьми этот клок волос и карту к алтарю его призыва."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:guardian_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster6",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "simple_mobs:giant_knot"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/gamestage add @p fire_giant",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:sentinel_knight_quest_complete",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

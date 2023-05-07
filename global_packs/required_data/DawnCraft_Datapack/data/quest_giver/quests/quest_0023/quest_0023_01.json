@@ -1,0 +1,32 @@
+{
+	"parent": "quest_giver:root",
+	"reputation": 12,
+	"icon": "minecraft:iron_sword",
+	"start": {
+		"title": {
+			"text": "Ну и?"
+		},
+		"description": {
+			"text": "Я могу научить тебя навыку - Активная Защита. Просто заплати мне 15 Изумрудов."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Спасибо!"
+		},
+		"description": {
+			"text": "Вот."
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:emerald"
+		},
+      "id": "quest_giver:gift",
+      "times": 15
+	}],
+	"rewards": [{
+		"command": "/give @p epicfight:skillbook{skill:\"epicfight:active_guard\"}",
+		"id": "quest_giver:command"
+	}]
+}

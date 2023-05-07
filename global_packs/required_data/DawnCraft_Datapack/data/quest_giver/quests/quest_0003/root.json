@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Привет!"
+    },
+    "description": {
+      "text": "Привет, дружище! Не мог бы ты достать мне чернила и бумагу?"
+    }
+  }
+}
