@@ -1,0 +1,1650 @@
+{
+	id: "3EE7B887A0FC6FCD"
+	group: ""
+	order_index: 1
+	filename: "dawncraft"
+	title: "Приключения Начинаются!"
+	icon: "minecraft:writable_book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Найди свой путь!"
+			icon: {
+				id: "antiqueatlas:antique_atlas"
+				Count: 1b
+				tag: { }
+			}
+			x: -3.75d
+			y: -5.25d
+			description: ["Старинный атлас — это функция карты в данном модпаке. Игроки начинают с одного по умолчанию, но в случае утери можно создать больше. Маркеры могут быть добавлены для обозначения точек интереса, а маркеры смерти будут добавлены автоматически. Его ориентация совпадает с ориентацией ванильных карт, поэтому он может быть отличным инструментом для ориентирования при поиске одного из многочисленных мест на карте этого пакета модов, таких как боссы."]
+			dependencies: ["6A377E0BD0B45BC5"]
+			size: 1.5d
+			id: "2E56DF35467BE295"
+			tasks: [{
+				id: "3AF5CCBA45F6DC78"
+				type: "checkmark"
+				title: "Прочитай"
+			}]
+			rewards: [{
+				id: "55079C6539007C92"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "Жители и Квесты"
+			icon: "minecraft:filled_map"
+			x: -1.5d
+			y: -5.25d
+			description: [
+				"Деревни имеют большое значение. NPC Guild Master, которого можно найти в каждой деревне, проведет игроков через основной квест этого модпака. Этот основной квест необходим для разблокировки зачарования, кузнечного дела и других улучшений снаряжения и автоматизации. В этих квестах игроки будут охотиться на боссов за их редкими вариантами Око Эндера. В хижине мастера гильдии вы также можете проверить свою репутацию жителя (через книгу репутации) и пожертвовать изумрудные связки (через ящик для пожертвований). Подробнее о репутации в следующем разделе."
+				""
+				""
+			]
+			dependencies: ["6A377E0BD0B45BC5"]
+			size: 1.5d
+			id: "49AF23C212917B34"
+			tasks: [{
+				id: "0C802152D8EA3267"
+				type: "checkmark"
+				title: "Прочитай"
+			}]
+			rewards: [{
+				id: "15E44BAE1B24BC74"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "Репутация (и как ее восстановить)"
+			x: -1.5d
+			y: -3.0d
+			description: ["Изумрудные Мешочки  можно подарить мастеру гильдии в любой деревне, чтобы восстановить свою репутацию. Они могут быть изготовлены из 8 изумрудов и одной кожи. Чтобы сделать пожертвование, просто найдите мастера гильдии (деревенского жителя в синей одежде, который живет в хижине с красной крышей) и щелкните правой кнопкой мыши ящик для пожертвований на его прилавке со свертком для пожертвования. Игроку нужно будет поспать, чтобы пожертвование вступило в силу. Для полного восстановления репутации могут потребоваться кратные выплаты. Репутация снижается, если вы разграбляете сундуки или бочки на глазах у жителей деревни или причиняете им вред. Если ваша репутация низкая, вы не сможете получать задания или сделки от жителей деревни, а также сдавать существующие задания."]
+			dependencies: ["49AF23C212917B34"]
+			id: "257D44B8882C8937"
+			tasks: [{
+				id: "0112D4788B97E2CF"
+				type: "item"
+				item: "simple_mobs:bundled_emerald"
+			}]
+			rewards: [
+				{
+					id: "4587D492A0846A3B"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 8
+				}
+				{
+					id: "082DDCA28613EE54"
+					type: "item"
+					item: "minecraft:leather"
+				}
+			]
+		}
+		{
+			title: "Торговые Контракты"
+			icon: "quest_giver:trading_contract_armorer"
+			x: -1.5d
+			y: -1.5d
+			description: ["Для торговли с сельскими жителями требуются торговые контракты. Прежде чем один из них можно будет использовать, игрок должен нажать shift + click, держа один из них в руке на кафедре, чтобы подписать его, затем щелкнуть правой кнопкой мыши на соответствующем жителе деревни с подписанным контрактом для торговли. Если игрок умирает с контрактом, его необходимо будет переподписать. Контракты можно получить непосредственно у жителей деревни в качестве награды за выполнение задания или разблокировать с помощью приведенных ниже заданий. Выполнение нижеприведенных квестов обходится намного дороже, но взамен они устраняют случайность выполнения квестов для сельских жителей."]
+			dependencies: ["257D44B8882C8937"]
+			id: "58CD06935381272E"
+			tasks: [{
+				id: "588DE458E9165C5C"
+				type: "checkmark"
+				title: "Прочитай"
+			}]
+			rewards: [{
+				id: "115B9E78CBA9C892"
+				type: "xp"
+				auto: "enabled"
+				xp: 10
+			}]
+		}
+		{
+			title: "Торговый Контракт Оружейника"
+			icon: {
+				id: "magistuarmory:wingedhussar_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -2.5d
+			y: -2.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "734B9A955AD79147"
+			tasks: [
+				{
+					id: "0EBAEA377712A3C9"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "18654BE8C4BDBDF7"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "4C0E6D4FF6E99229"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "777655C59705BBFB"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "3A7BA1022D007F5A"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "3DF5355168BC064B"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "2DD17758B701B4FC"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_toolsmith"
+				command: "/advancement grant @p only custom:trade_armorer"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Мясника"
+			icon: "minecraft:beef"
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "76DE84BC4E0A3B7C"
+			tasks: [
+				{
+					id: "7BA3117DAEECDAC7"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 30L
+					consume_items: true
+				}
+				{
+					id: "2D4997C8008DFFB0"
+					type: "item"
+					item: "minecraft:egg"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "1BBBF9660DC96346"
+					type: "item"
+					item: "minecraft:cooked_porkchop"
+					count: 30L
+					consume_items: true
+				}
+				{
+					id: "57183F11F7F38AE9"
+					type: "item"
+					item: "minecraft:cooked_mutton"
+					count: 30L
+					consume_items: true
+				}
+				{
+					id: "206EA451FBA5DFC4"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "5492946DB1DDE5EA"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_cartographer"
+				command: "/advancement grant @p only custom:trade_butcher"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Картографа"
+			icon: "minecraft:filled_map"
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "70BD0F71C71F930C"
+			tasks: [
+				{
+					id: "008607AFC1F470A5"
+					type: "item"
+					item: "minecraft:ink_sac"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "7D404077140E3D07"
+					type: "item"
+					item: "minecraft:map"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "177944DEEF781BD1"
+					type: "item"
+					item: "minecraft:paper"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2F0E964609E2FA01"
+					type: "item"
+					item: "minecraft:glow_ink_sac"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "7F7A1C5585DA4F69"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "280B1951564FE37C"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_cartographer"
+				command: "/advancement grant @p only custom:trade_cartographer"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Священника "
+			icon: "minecraft:brewing_stand"
+			x: -1.5d
+			y: 0.0d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "21A348D2D60920F4"
+			tasks: [
+				{
+					id: "0E417AA6BBFDA12F"
+					type: "item"
+					item: "minecraft:blaze_powder"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "265CC53AC61037AF"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "745E80B81BBA5D13"
+					type: "item"
+					item: "minecraft:brewing_stand"
+					consume_items: true
+				}
+				{
+					id: "2104F2CFC02A2F26"
+					type: "item"
+					item: "minecraft:spider_eye"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "2DF5465A55304193"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "72B10BBF2C498725"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_cleric"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Фермера"
+			icon: "minecraft:wheat"
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "4F05A048DDC9B952"
+			tasks: [
+				{
+					id: "67F7DE7DB3AC0E17"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "0F659F94639F01C0"
+					type: "item"
+					item: "farmersdelight:tomato"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "01833FABD153A05F"
+					type: "item"
+					item: "minecraft:beetroot"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "57EBA590AE59CA43"
+					type: "item"
+					item: "farmersdelight:cabbage"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "42EEE95E2A460203"
+					type: "item"
+					item: "minecraft:potato"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "1CF080D9A46AA3D9"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2C3CA37A998C4904"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "75629351AA1174D7"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_farmer"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Рыболова"
+			icon: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "1669E876420E6334"
+			tasks: [
+				{
+					id: "0C8CFF60477DE9D8"
+					type: "item"
+					item: "minecraft:cod"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "364D08486A5EDB1E"
+					type: "item"
+					item: "minecraft:salmon"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2461F14608B83F17"
+					type: "item"
+					item: "minecraft:tropical_fish"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "3672E3DBABFACBA4"
+					type: "item"
+					item: "minecraft:pufferfish"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "1B83946686F2EF7C"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "4A4AD406EF8E16E6"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_angler"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Лучника"
+			icon: "minecraft:spectral_arrow"
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "16EBE1531DFDB056"
+			tasks: [
+				{
+					id: "250968064CF3CE8D"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "687BB7F1FD1572FF"
+					type: "item"
+					item: {
+						id: "minecraft:bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "76118F003E5D0B65"
+					type: "item"
+					item: {
+						id: "minecraft:crossbow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "4E64674D09D3AFB9"
+					type: "item"
+					item: "minecraft:flint"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "406A2A72C5447737"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "4E936AD991C6DF38"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_fletcher"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Кожевника"
+			icon: "minecraft:leather"
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "7872115113F983CC"
+			tasks: [
+				{
+					id: "76E0AADD8073A6F4"
+					type: "item"
+					item: "minecraft:leather"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "7FC26951B604D88A"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "233D040CAF68AA22"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "6D7F4440266E5F72"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "562E3BBEF3358F4D"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_leatherworker"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Библиотекаря"
+			icon: "minecraft:book"
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "39144289C1A60D80"
+			tasks: [
+				{
+					id: "572C086AB16F4C6E"
+					type: "item"
+					item: "minecraft:bookshelf"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "2C720F67D320F52E"
+					type: "item"
+					item: "minecraft:writable_book"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "4A8E59DD6361C620"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "2158CDBE932B4790"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "1B8A65DB7F1CA619"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "199333E8368F50FE"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_librarian"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Каменщика"
+			icon: "minecraft:stonecutter"
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "26E989448A8E3607"
+			tasks: [
+				{
+					id: "112471E993C6DD8C"
+					type: "item"
+					item: "minecraft:stone"
+					count: 200L
+					consume_items: true
+				}
+				{
+					id: "6636C4A13F2C27AD"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "610D6A953D487182"
+					type: "item"
+					item: "minecraft:deepslate"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "34F20D005C76CD7E"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "02EC6E6E3EA0FE54"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_butcher"
+				command: "/advancement grant @p only custom:trade_mason"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Пастуха"
+			icon: {
+				id: "minecraft:shears"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "56EE6F1B96B115B2"
+			tasks: [
+				{
+					id: "52BDC17FDE2A139D"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "2644BCC4C3012D5F"
+					type: "item"
+					item: {
+						id: "minecraft:shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "18DACA14A26E756F"
+					type: "item"
+					item: "minecraft:mutton"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "7CA9F521A72A189D"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "4CE7B90D24F795E6"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_shepherd"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Мастера по инструментам"
+			icon: {
+				id: "minecraft:diamond_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "436E4C659B58E55D"
+			tasks: [
+				{
+					id: "71EF5D1E574048C3"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "544799F00E56BCB4"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "679CB1F6B100AFCC"
+					type: "item"
+					item: {
+						id: "minecraft:golden_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "605264E46B886E34"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C2FA5FEA57B1F75"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "224712D630BBECBD"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_butcher"
+				command: "/advancement grant @p only custom:trade_toolsmith"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Ендериана"
+			icon: "minecraft:ender_pearl"
+			x: -3.5d
+			y: -2.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "57542FC7B59FCB1A"
+			tasks: [
+				{
+					id: "5ED7BB5FE42BB220"
+					type: "item"
+					item: "minecraft:ender_pearl"
+					count: 24L
+					consume_items: true
+				}
+				{
+					id: "70F1A671FBE3A6EF"
+					type: "item"
+					item: "minecraft:grass_block"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "73B11EA0BF7DE102"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "66A352FA29523680"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_cartographer"
+				command: "/advancement grant @p only custom:trade_enderian"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Инженера"
+			icon: "create:cogwheel"
+			x: -2.5d
+			y: -3.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "606B4B6C22F2E205"
+			tasks: [
+				{
+					id: "33CD226B9C9CBFB8"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "1E134D911C379A6A"
+					type: "item"
+					item: "create:iron_sheet"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "3C9C15D58B97C259"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "37EAF2E91CD52939"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "6754EE64FC4B32A7"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_butcher"
+				command: "/advancement grant @p only custom:trade_engineer"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Флориста"
+			icon: "minecraft:cornflower"
+			x: -0.5d
+			y: -3.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "6B5E4E64D71F73F7"
+			tasks: [
+				{
+					id: "4DC0C7D7992087A2"
+					type: "item"
+					item: "minecraft:cornflower"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "3F9485BB353822D5"
+					type: "item"
+					item: "hexerei:mugwort_flowers"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "4319DE2DE3A4D773"
+					type: "item"
+					item: "hexerei:yellow_dock_flowers"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "6292AC22FA01C637"
+					type: "item"
+					item: "hexerei:belladonna_flowers"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "1F61A4298117DA7D"
+					type: "item"
+					item: "hexerei:mandrake_flowers"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "690FAD0D37FB4244"
+					type: "item"
+					item: "minecraft:rose_bush"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "5C36D70F54B0A026"
+					type: "item"
+					item: "minecraft:dandelion"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "761876D83D3BD113"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "0A98554CC902FECB"
+					type: "item"
+					item: "minecraft:azure_bluet"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "751B2F5F802B8765"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "2F78A6D4D40AC92F"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_florist"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Охотника"
+			icon: {
+				id: "minecraft:bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "59D310C364609E04"
+			tasks: [
+				{
+					id: "0C1F100CD4CF90F8"
+					type: "item"
+					item: "ars_nouveau:wilden_horn"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "01E7D5BC4277EF50"
+					type: "item"
+					item: "minecraft:bone"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "51B97160577A9B53"
+					type: "item"
+					item: "minecraft:leather"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "556EA1A76F5B2ED3"
+					type: "item"
+					item: "minecraft:feather"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "7FF649BE9EF10C79"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "4F8105978561C3F2"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_hunter"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Незериана"
+			icon: "minecraft:nether_wart_block"
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "231F33F8E56E16C1"
+			tasks: [
+				{
+					id: "518A699901FAEAD0"
+					type: "item"
+					item: "minecraft:netherite_scrap"
+				}
+				{
+					id: "17073B0928EEC015"
+					type: "item"
+					item: "minecraft:nether_bricks"
+					count: 64L
+				}
+				{
+					id: "300B450A205C5CCE"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 200L
+					consume_items: true
+				}
+				{
+					id: "2985D1601A6DA868"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "36C0B6E99A563254"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_netherian"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Океанографа"
+			icon: "minecraft:tropical_fish"
+			x: -4.0d
+			y: -1.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "7E9B40E4AE6BCC89"
+			tasks: [
+				{
+					id: "6F388FA581871AE2"
+					type: "item"
+					item: "minecraft:prismarine_shard"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "1D6A2CD6508CDBE4"
+					type: "item"
+					item: "minecraft:cod"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "1A3329098BEC8FC0"
+					type: "item"
+					item: "minecraft:spruce_boat"
+				}
+				{
+					id: "285B6128FC70E883"
+					type: "item"
+					item: "minecraft:sea_lantern"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "0F282799DBBAA06D"
+					type: "item"
+					item: "minecraft:sea_pickle"
+					count: 10L
+				}
+				{
+					id: "0A2C6F6CD7D9006F"
+					type: "item"
+					item: "minecraft:seagrass"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "1E8FDD13A0B1017B"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "11D8F8F81C6EDC24"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_cleric"
+				command: "/advancement grant @p only custom:trade_oceanographer"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Лесоруба"
+			icon: {
+				id: "minecraft:diamond_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.5d
+			y: -3.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "671AA6B11F92DC15"
+			tasks: [
+				{
+					id: "0C3E89A9B86F035F"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "31FD701B206B71FD"
+					type: "item"
+					item: "minecraft:birch_log"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "11EB7D320C3C5009"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: true
+				}
+				{
+					id: "7DDD397D5F8C19E6"
+					type: "item"
+					item: "minecraft:stripped_spruce_log"
+					count: 16L
+					consume_items: true
+				}
+				{
+					id: "0172ADD25BF645E3"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "405D1CDE2535D2DA"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_woodworker"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Шахтера"
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.5d
+			y: -3.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "759D0FF12CDF12DB"
+			tasks: [
+				{
+					id: "5BB05F44A24B249B"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "7864BB7068B55F26"
+					type: "item"
+					item: "minecraft:raw_gold"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "25150A8D4F789287"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 64L
+					consume_items: true
+				}
+				{
+					id: "12DDD4E7BDB78D4C"
+					type: "item"
+					item: "minecraft:diamond"
+					consume_items: true
+				}
+				{
+					id: "6F231C239988FD6F"
+					type: "item"
+					item: "minecraft:tnt"
+					consume_items: true
+				}
+				{
+					id: "3B25D96BA9E697B7"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "165DAF1EB8D63AD1"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_cartographer"
+				command: "/advancement grant @p only custom:trade_miner"
+				player_command: false
+			}]
+		}
+		{
+			title: "Торговый Контракт Пчеловода"
+			icon: "minecraft:honeycomb"
+			x: 0.0d
+			y: -4.5d
+			dependencies: ["58CD06935381272E"]
+			dependency_requirement: "one_completed"
+			id: "6414A16FB710B8DE"
+			tasks: [
+				{
+					id: "667A32CE331DE475"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 32L
+					consume_items: true
+				}
+				{
+					id: "1A89AF14E538A72C"
+					type: "item"
+					item: "minecraft:honey_bottle"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "58B9E3CF79073742"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "63EC80BB59C9FD0F"
+				type: "command"
+				title: "Claim trading contract"
+				icon: "quest_giver:trading_contract_armorer"
+				command: "/advancement grant @p only custom:trade_beekeeper"
+				player_command: false
+			}]
+		}
+		{
+			title: "Передвижение"
+			icon: {
+				id: "minecraft:leather_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: -5.25d
+			description: [
+				"Этот пакет модов потребует от вас путешествия по тысячам или даже десяткам тысяч блоков, чтобы найти важные строения, боссов, биомы и многое другое. Чтобы помочь в этой задаче, есть несколько полезных способов передвижения, подробно описанных в приведенных ниже квестах."
+				"Многие моды добавляют дополнительные способы передвижения, которые будут объяснены на соответствующих вкладках квестов, а также может помочь поиск снаряжения с бонусами к скорости."
+			]
+			dependencies: ["6A377E0BD0B45BC5"]
+			size: 1.5d
+			id: "5165327673FA3C3A"
+			tasks: [{
+				id: "6283927290D3C7E3"
+				type: "checkmark"
+				title: "Прочитай"
+			}]
+			rewards: [{
+				id: "261360F8E570AB79"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "Параглайдер"
+			x: 2.0d
+			y: -3.0d
+			description: ["Планеры - отличный способ передвигаться по неровным ландшафтам. Найди где-нибудь повыше и спрыгни. Использование планера израсходует вашу выносливость, поэтому будьте осторожны, чтобы не иссякнуть, так как вы упадете с неба. Если у вас низкая выносливость, подумайте о том, чтобы пока придерживаться более низких скал."]
+			dependencies: ["5165327673FA3C3A"]
+			id: "5F8E6856198022AB"
+			tasks: [{
+				id: "24BD29A64D572082"
+				type: "item"
+				item: "paraglider:paraglider"
+			}]
+			rewards: [{
+				id: "62BF1A01EBAA2CA3"
+				type: "item"
+				item: "untamedwilds:food_bear_cooked"
+				count: 5
+			}]
+		}
+		{
+			title: "Выносливость"
+			icon: "paraglider:spirit_orb"
+			x: 2.0d
+			y: -1.5d
+			description: ["Единственный способ увеличить свою выносливость - это использовать Сферы Духа или Эссенцию. Их можно найти в подземельях-головоломках (большие желтые или синие сооружения, содержащие головоломку для завершения) или в некоторых квестах. Эссенция может выпадать у некоторых мобов, таких как огры и Церковные врачи, которые появляются в дикой природе, а также из некоторых квестов. После получения щелкните правой кнопкой мыши на элементе, чтобы использовать его. Как только у вас будет 4 шара или 6 эссенций, обратитесь к соответствующей статуе в любой деревне, чтобы обменять их на больше здоровья или выносливости."]
+			dependencies: ["5F8E6856198022AB"]
+			id: "1C144F8F242A570F"
+			tasks: [{
+				id: "4382A321D9130B3D"
+				type: "checkmark"
+				title: "Прочитай"
+			}]
+			rewards: [{
+				id: "61F5F77070CF6EF8"
+				type: "item"
+				item: "paraglider:essence"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["Исследуя местность, вы найдете путевые камни в некоторых деревнях. Вы можете щелкнуть по ним правой кнопкой мыши (или сначала разрушить и заменить их, чтобы задать новое имя), чтобы сохранить их местоположение. Путевые камни можно меняться местами за счет опыта, однако создание искривляющего камня позволит вам неограниченно телепортироваться (во время перезарядки) в любую из сохраненных вами локаций из любого места."]
+			dependencies: ["1C144F8F242A570F"]
+			id: "55A2F317B39F413E"
+			tasks: [{
+				id: "5E57594EE69E1505"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "67886399BDDA5533"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "24778DF39497F0B0"
+					type: "xp"
+					xp: 3
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["В дополнение к тому, что Камни Пути можно найти в мире, они также могут быть обработаны. Это может быть отличным способом добавить местоположение к вашей домашней базе, а также взять его с собой во время длительных путешествий, чтобы можно было быстро добраться домой и обратно, разместив его, переместив домой, пополнив запасы / отремонтировав, затем переместив обратно и снова забрав."]
+			dependencies: ["55A2F317B39F413E"]
+			id: "679E0992FAE07E57"
+			tasks: [{
+				id: "1946D897ED5D5DFA"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [{
+				id: "05DB1F2646D68683"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Путь к силе"
+			icon: {
+				id: "minecraft:diamond_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.75d
+			y: -5.25d
+			description: [
+				"Когда вы только начинаете, вы будете в меньшинстве и недостаточно сильны. Все в порядке - так и должно быть. Вам, без сомнения, придется искать свое снаряжение для ранней игры, и, вероятно, в процессе вы встретите свою смерть. Наберитесь терпения, исследуйте, добывайте, создавайте и следуйте приведенным ниже шагам, чтобы подготовить своего персонажа к победе над самыми устрашающими боссами."
+				""
+				"После смерти вы сохраните большую часть своих вещей. Однако вы потеряете некоторые предметы (например, руду, некоторые материалы или валюту), и они будут сохранены в трупе игрока, который исчезнет через 7 минут. Смерть также повредит ваши инструменты и снаряжение, а также даст вам дебафф, который на некоторое время увеличит урон от снаряжения и потерю опыта. Многократная смерть за короткое время может серьезно повредить ваше снаряжение и привести к увеличению потерь опыта."
+			]
+			dependencies: ["6A377E0BD0B45BC5"]
+			size: 1.5d
+			id: "60154554DCD1D411"
+			tasks: [{
+				id: "3D8CC03207E45A7D"
+				type: "checkmark"
+				title: "Прочитай"
+			}]
+			rewards: [{
+				id: "3545B0608C2397E2"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "Укрепление"
+			icon: {
+				id: "minecraft:leather_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: -1.5d
+			description: ["Следующий шаг - поиск снаряжения с лучшими характеристиками. Этого можно достичь, разграбляя сундуки, сражаясь с монстрами и выполняя некоторые задания. Это снаряжение более мощное, но как только оно ломается, оно пропадает навсегда, поэтому используйте его экономно, пока у вас не заваляется какое-нибудь дополнительное снаряжение."]
+			dependencies: ["648C999659850F11"]
+			id: "52D8E61B177F4493"
+			tasks: [{
+				id: "7A99F7892E18E3E6"
+				type: "checkmark"
+				title: "Прочитай"
+			}]
+			rewards: [{
+				id: "14F07029B11EA30C"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "Напуганный и Одинокий"
+			icon: "apotheosis:boss_summoner"
+			x: 3.5d
+			y: -3.0d
+			description: ["Первым шагом к включению питания является обеспечение безопасности вещей - добыча полезных ископаемых, создание поделок и легкое исследование местности. Созданное снаряжение будет не таким прочным, как найденное, но оно будет выполнять свою работу до тех пор, пока вы не добьетесь чего-то лучшего."]
+			dependencies: ["60154554DCD1D411"]
+			id: "648C999659850F11"
+			tasks: [{
+				id: "73AA03CFF11003B6"
+				type: "checkmark"
+				title: "Прочитай"
+			}]
+			rewards: [{
+				id: "2F9053F2874FF327"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "Диета"
+			icon: "minecraft:apple"
+			x: 5.0d
+			y: -1.5d
+			description: ["Одним из наиболее важных факторов вашего успеха в бою является ваша диета. Монстры бьют сильно и быстро, и ваше здоровье обязательно пострадает. Употребление пищи с высокой насыщенностью гарантирует, что ваша регенерация HP будет длиться дольше, и это может иметь значение между жизнью и смертью. Золотые продукты могут помочь еще больше в этом отношении, хотя и по высокой цене. Кроме того, разнообразие вашего рациона будет накладывать баффы, которые помогут вам выжить. Варианты еды смотрите на вкладке квеста «Кулинария и сельское хозяйство». Книга еды (которую можно создать и получить в результате этого квеста) покажет вам ваши текущие и возможные положительные эффекты еды."]
+			dependencies: ["52D8E61B177F4493"]
+			id: "56A78445B3458AE9"
+			tasks: [{
+				id: "6CE1624597E3D440"
+				type: "checkmark"
+				title: "Прочитай"
+			}]
+			rewards: [{
+				id: "0C27B0DE094838F0"
+				type: "item"
+				item: "solapplepie:food_book"
+			}]
+		}
+		{
+			title: "Уклонение и навыки"
+			icon: "minecraft:feather"
+			x: 5.0d
+			y: -3.0d
+			description: ["Навыки могут значительно повысить вашу живучесть. Способность \"Уклоняться от броска\" можно получить с помощью первого задания мастера гильдии, а другие боевые навыки можно приобрести в квестах деревенского стража. Ищите деревни, чтобы приобрести эти полезные навыки. Привязку клавиш \"Dodge\" можно установить и отредактировать в настройках вашего элемента управления (Левый ALT по умолч.). Вы можете изучить навык, щелкнув правой кнопкой мыши и удерживая ее, и оснастить его через меню \"Редактор навыков\" (настраивается)."]
+			dependencies: ["648C999659850F11"]
+			id: "76CA9142CEA54D1F"
+			tasks: [{
+				id: "22A5B0ED0BF90AA2"
+				type: "checkmark"
+				title: "Прочитай"
+			}]
+			rewards: [{
+				id: "6DDD88CEF8F2AA85"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "Боевой Режим"
+			icon: {
+				id: "blue_skies:crushing_hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 5.5d
+			y: -5.0d
+			description: ["Боевая система этого модпака основана на моде Epic Fight. Нажмите \"R\" (клавиша настраивается), чтобы активировать боевой режим, который позволит вам использовать навыки и проводить специальные атаки! Однако в некоторых случаях вы все равно можете захотеть использовать ванильные атаки, например, когда вас схватят арахнорхиды из измерения Вечного Рассвета. Обратите внимание, что ванильные атаки наносят вдвое меньше урона, чем в боевом режиме, просто потому, что вы не привязываетесь к своим атакам."]
+			dependencies: ["60154554DCD1D411"]
+			id: "601DF1F35CF01A0A"
+			tasks: [{
+				id: "0E3D3998B4E7CCFE"
+				type: "checkmark"
+				title: "Прочитай"
+			}]
+			rewards: [{
+				id: "7511E16D93F3625B"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+		{
+			title: "DawnCraft"
+			icon: "minecraft:clock"
+			x: 1.0d
+			y: -7.5d
+			subtitle: "Вы можете найти информацию о DawnCraft в этой книге."
+			size: 2.0d
+			id: "6A377E0BD0B45BC5"
+			tasks: [{
+				id: "6BCEB5011E1496FB"
+				type: "checkmark"
+				title: "Давайте начнем!"
+			}]
+		}
+		{
+			title: "Безделушки и многое другое"
+			icon: "ars_nouveau:ring_of_greater_discount"
+			x: 3.75d
+			y: -7.5d
+			description: [
+				"Игроки могут экипировать ряд дополнительных предметов в специальные слоты для снаряжения."
+				""
+				"&b&lCurios"
+				"The curios Доступ к меню можно получить, нажав кнопку в верхнем левом углу портрета игрока в меню инвентаря. Это покажет все доступные слоты Curio для колец, подвесок и так далее. Некоторые предметы могут даже добавлять дополнительные слоты."
+				""
+				"&b&lArcs"
+				"Дуги можно найти в измерениях, добавленных модом Blue Skies. Доступ к этому меню можно получить через вкладку Дуги слева от экрана инвентаря."
+			]
+			dependencies: ["6A377E0BD0B45BC5"]
+			size: 1.5d
+			id: "43D08D9E4A7AE9B9"
+			tasks: [{
+				id: "4C8FA1F14597A638"
+				type: "checkmark"
+				title: "Прочитай"
+			}]
+			rewards: [{
+				id: "2E3EF9A19A511910"
+				type: "xp"
+				xp: 1
+			}]
+		}
+		{
+			title: "Камера и Горячие Клавиши"
+			icon: "mimic:mimic_key"
+			x: -1.5d
+			y: -7.5d
+			description: [
+				"Этот модпак предназначен для игры в основном от третьего лица. По умолчанию вы можете переключать перспективы с помощью F5, но привязка к такой клавише, как ~, может быть более быстрым способом переключения на лету."
+				"Расположение прицела относительно игрока можно регулировать клавишами со стрелками влево и вправо, а масштабировать камеру можно вверх и вниз. Отрегулируйте их в соответствии с вашими предпочтениями. "
+				"Боевой режим может быть включена с помощью R по умолчанию, однако вы можете привязать ее к другой клавише, например, к дополнительной кнопке мыши, если она доступна."
+			]
+			dependencies: ["6A377E0BD0B45BC5"]
+			size: 1.5d
+			id: "0EACC613F198A412"
+			tasks: [{
+				id: "7DC460964D5D9D24"
+				type: "checkmark"
+				title: "Прочитай"
+			}]
+			rewards: [{
+				id: "5EDFAB5C16E23052"
+				type: "xp"
+				auto: "enabled"
+				xp: 1
+			}]
+		}
+	]
+	quest_links: [ ]
+}
