@@ -39,8 +39,8 @@ ModPack Version: 1.15 - 1.16...
 1. Нажать на кнопку code.
 2. Нажать Download ZIP.
 - How Setup? Как Установить?
-![Setup FTB Quest Ru lang](https://user-images.githubusercontent.com/54354556/236097412-1678b4de-d2bf-401e-a064-7de7a7976dce.png)
-1. в <modpack_path>\config\ftbquests\quests заменить папку chapters. (in <mod pack_path>\config\php quests\quests, replace the chapters folder)
+![2023-05-07_13-15-49.png](Для Github/2023-05-07_13-15-49.png)
+1. Содержимое архива Закинуть в папку сборки. (Throw the contents of the archive into the assembly folder.)
 2. Потвердить замену Файлов. (Confirm file replacement.)
 3. ッ
  ...
