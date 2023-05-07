@@ -1,0 +1,56 @@
+{
+  "parent": "quest_giver:quest_0014_03",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Путь к Хранителям Ока"
+    },
+    "description": {
+      "text": "Огр находится на совершенно другом уровне по сравнению с Королём Гоблинов. Будь осторожен."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Путь к Хранителям Ока"
+    },
+    "description": {
+      "text": "Молодец. Пожалуй, теперь ты способен сразиться с $(red)Рыцарем Робертом$(). Он намного слабее, чем был когда-то, но я предполагаю, что он всё равно очень опасен, поскольку он до сих пор способен сдерживать силу Ока, которое он хранит. Вот карта его нынешнего местонахождения."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:lost_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/dc enableInvasions @p",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add endurance level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add cooking level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p AdvancedSmelting",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:corrupt_ogre_quest_complete",
+      "id": "quest_giver:command"
+    } 
+  ]
+}

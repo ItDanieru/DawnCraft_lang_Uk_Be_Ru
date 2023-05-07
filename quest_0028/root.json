@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:wooden_sword",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Эй! У меня к тебе просьба... Выслушаешь?"
+    }
+  }
+}

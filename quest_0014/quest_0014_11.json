@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0014_10",
+  "reputation": 10,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "Конец... это всего лишь Начало?"
+    },
+    "description": {
+      "text": "..."
+    }
+  }
+}

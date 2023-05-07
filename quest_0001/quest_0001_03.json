@@ -1,0 +1,49 @@
+{
+  "parent": "quest_giver:quest_0001_02",
+  "reputation": 5,
+  "icon": "minecraft:blast_furnace",
+  "start": {
+    "title": {
+      "text": "Привет."
+    },
+    "description": {
+      "text": "Привет. Ты нашел кулон? Ценные вещи они обычно прячут под столом."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Наконец..."
+    },
+    "description": {
+      "text": "Наконец-то, Жан... Я вернул его... Я сдержал свою клятву... Точно, держи. Спасибо тебе, это многое значит для меня."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:armorers_pendant"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+ 	   "type": "minecraft:item_nbt",
+           "item": "minecraft:iron_chestplate",
+           "nbt":  "{display:{Name:'[{\"text\":\"Хранитель клятвы\",\"italic\":false}]',Lore:['[{\"text\":\"Нагрудник, который оружейник сделал специально для своего чемпиона..\",\"italic\":false}]']},Enchantments:[{id:mending,lvl:1},{id:protection,lvl:2}]}"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },    
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

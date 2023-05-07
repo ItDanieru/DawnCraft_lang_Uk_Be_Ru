@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Привет! Не принесёшь мне ведро молока? Я соскучился по его вкусу."
+    }
+  }
+}

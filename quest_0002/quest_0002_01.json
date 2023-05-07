@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0002_01b",
+  "reputation": 0,
+  "icon": "minecraft:rabbit_foot",
+  "start": {
+    "title": {
+      "text": "Услуга"
+    },
+    "description": {
+      "text": "Ну, а кроличья лапка-то у тебя есть?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Замечательно!"
+    },
+    "description": {
+      "text": "Замечательно! Мне нечем заплатить... Пожалуйста, прими эту баранину, с пылу, с жару!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:rabbit_foot"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+      	"item": "minecraft:cooked_mutton"
+	},
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

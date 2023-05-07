@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0001_01b",
+  "reputation": 5,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "Принеси мне кое-что!"
+    },
+    "description": {
+      "text": "Привет! Ты уже принес мне $(red)4 железных слитка$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Спасибо! Теперь я наконец-то смогу сделать доспехи для того стражника... Он всё продолжает твердить об этом! Сейчас у меня для тебя ничего нет, но я клянусь, что когда-нибудь отплачу тебе!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_ingot"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ]
+}

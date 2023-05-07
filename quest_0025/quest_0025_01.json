@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0025_01b",
+  "reputation": 10,
+  "icon": "minecraft:iron_axe",
+  "start": {
+    "title": {
+      "text": "Задача — Уничтожить"
+    },
+    "description": {
+      "text": "Убей Грифона, я хорошо тебе заплачу... Но будь осторожен, пожалуйста."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Слава богам, ты вернулся! Ты так долго не возвращался, и мне в голову приходили самые ужасные мысли... Я рад, что ты в порядке. Вот твоя награда. Еще раз спасибо."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "simple_mobs:griffin_feather"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+      	"item": "minecraft:emerald"
+	},
+      "id": "quest_giver:item",
+      "times": 5
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

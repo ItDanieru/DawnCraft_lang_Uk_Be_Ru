@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0019_01b",
+  "reputation": 16,
+  "icon": "minecraft:iron_pickaxe",
+  "start": {
+    "title": {
+      "text": "Ну и?"
+    },
+    "description": {
+      "text": "Нет ли у тебя листа бумаги? Я нарисую тебе карту."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Держи. Пожалуйста, передай от меня привет. Без него меня бы здесь не было."
+    }
+  },
+  "tasks": [
+     {
+      "item": {
+	 "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+     }
+  ],
+  "rewards": [
+  {
+      "command": "/loot give @p loot minecraft:miner1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

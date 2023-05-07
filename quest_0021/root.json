@@ -1,0 +1,12 @@
+{
+  "reputation": 14,
+  "icon": "minecraft:heart_of_the_sea",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Здравствуй, Авантюрист. Можешь раздобыть кое-что из Океана?"
+    }
+  }
+}

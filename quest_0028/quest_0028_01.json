@@ -1,0 +1,37 @@
+{
+  "parent": "quest_giver:quest_0028_01b",
+  "reputation": 0,
+  "icon": "minecraft:oak_sapling",
+  "start": {
+    "title": {
+      "text": "Туманная Гора"
+    },
+    "description": {
+      "text": "Эй, ты уже нашёл мистический биом $(red)Туманная Гора$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Неужели..."
+    },
+    "description": {
+      "text": "Неужели... Честно говоря, это очень разочаровывает. Я думал, что в Туманных Горах живут драконы... Ну, по крайней мере, теперь я знаю, что это миф. Спасибо."
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "custom:magical_spring"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    }
+  ]
+}

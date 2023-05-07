@@ -1,0 +1,48 @@
+{
+  "parent": "quest_giver:quest_0014_05",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Путь к Хранителям Ока"
+    },
+    "description": {
+      "text": "Хм... Девятихвостый не совсем человек. Ну, ты поймешь, когда увидишь его."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Путь к Хранителям Ока"
+    },
+    "description": {
+      "text": "Хмф... Сейчас я даже не удивлен. Хорошая работа. Девятихвостый был печально известным жестоким духом... Я понятия не имею, почему он решил уйти на покой в заброшенном сарае. Как бы то ни было, вот местонахождение следующего Хранителя Ока. Будь осторожен, оно совсем не похоже на тех, с кем ты сталкивался раньше."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:exotic_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add magic level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/pmmo admin @p add smithing level 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:nine_tails_quest_complete",
+      "id": "quest_giver:command"
+    }    
+  ]
+}

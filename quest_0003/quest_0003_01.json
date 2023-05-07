@@ -1,0 +1,50 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Услуга"
+    },
+    "description": {
+      "text": "Привет! Ты нашел чернильный мешок и бумагу, которые мне нужны? По 1 штуке будет вполне достаточно."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Ты мой спаситель! Вот, изучи и заполни эту карту."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:ink_sac"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:paper"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:map"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

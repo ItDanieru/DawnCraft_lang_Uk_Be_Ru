@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 12,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "Спасибо, что обратил внимание."
+    },
+    "description": {
+      "text": "Спасибо, что обратил внимание. Моя плавильная печь сломалась... Можешь ли ты $(red)создать$() новую для меня?"
+    }
+  }
+}

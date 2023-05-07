@@ -1,0 +1,36 @@
+{
+	"parent": "quest_giver:quest_0014_01b",
+	"reputation": 5,
+	"icon": "minecraft:crossbow",
+	"start": {
+		"title": {
+			"text": "Поиск Разбойников"
+		},
+		"description": {
+			"text": "Думал, ты Авантюрист... Ладно. Принеси мне листок бумаги. Я покажу местонахождение ближайшего известного нам лагеря разбойников."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Карта Получена"
+		},
+		"description": {
+			"text": "Вот. Возможно, ты найдешь разбойников даже раньше. Эти ублюдки просто повсюду."
+		}
+	},
+	"tasks": [
+        {
+          "item": {
+             "item": "minecraft:paper"
+           },
+           "id": "quest_giver:gift",
+           "times": 1
+    	  }
+	],
+	"rewards": [
+    {
+      "command": "/loot give @p loot minecraft:pillager1",
+      "id": "quest_giver:command"
+    }
+]
+}

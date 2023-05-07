@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 4,
+  "icon": "minecraft:ender_pearl",
+  "start": {
+    "title": {
+      "text": "Ну и?"
+    },
+    "description": {
+      "text": "Ты уже нашел $(red)5 эндер-жемчужин$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Спасибо. Вот, за твои труды."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:ender_pearl"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+     }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 3
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_enderian",
+      "id": "quest_giver:command"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:cod",
+  "start": {
+    "title": {
+      "text": "Ну и?"
+    },
+    "description": {
+      "text": "10 Изумрудов за обучение премудростям стола лучника, довольно дешево, правда?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Вот. Развлекайся, делая стрелы!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 10
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add archery level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

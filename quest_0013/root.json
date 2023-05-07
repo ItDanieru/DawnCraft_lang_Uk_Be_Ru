@@ -1,0 +1,12 @@
+{
+  "reputation": 10,
+  "icon": "minecraft:white_wool",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Хочешь, я научу тебя пользоваться точилом? Это будет стоить 10 Изумрудов."
+    }
+  }
+}

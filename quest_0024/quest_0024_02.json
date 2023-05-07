@@ -1,0 +1,34 @@
+{
+  "parent": "quest_giver:quest_0024_01",
+  "reputation": 6,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Пропавший ребёнок"
+    },
+    "description": {
+      "text": "Пожалуйста, верни ребёнка домой!"
+    }
+
+  },
+  "complete": {
+    "title": {
+      "text": "Пропавший ребёнок: Выполнено"
+    },
+    "description": {
+      "text": "То, что ты сделал... Ты герой, Авантюрист. Мы никогда этого не забудем. Я научу тебя новому боевому навыку - Берсерк."
+    }
+  },
+  "tasks": [
+    {
+      "id": "afptweaks:follow_quest",
+       "structure": "#minecraft:village"
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:berserker\"}",
+      "id": "quest_giver:command"
+    }
+  ]
+}

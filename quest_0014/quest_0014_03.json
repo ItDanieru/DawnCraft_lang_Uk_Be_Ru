@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0014_02",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Путь к Хранителям Ока"
+    },
+    "description": {
+      "text": "Твое первое задание - уничтожить $(red)Короля Гоблинов$(). Обычно, они находятся на вершинах своих замков."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Путь к Хранителям Ока"
+    },
+    "description": {
+      "text": "Хорошая работа. Похоже, ты готов сразиться с $(red)Искаженным Огром$(). Вот здесь, в отмеченном месте, обитает существо, что хранит одно из Очей."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "goblinsanddungeons:goblin_crown"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster1",
+      "id": "quest_giver:command"
+    },
+     {
+      "command": "/advancement grant @p only simple_mobs:goblin_king_quest_complete",
+      "id": "quest_giver:command"
+    }
+  ]
+}

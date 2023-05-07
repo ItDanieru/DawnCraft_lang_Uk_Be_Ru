@@ -1,0 +1,30 @@
+{
+	"parent": "quest_giver:quest_0014_01b",
+	"reputation": 5,
+	"icon": "minecraft:enchanted_book",
+	"start": {
+		"title": {
+			"text": "Базовый навык"
+		},
+		"description": {
+			"text": "Возвращайся после выполнения требований - $(red)Убить 10 Разбойников$()."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Базовый навык"
+		},
+		"description": {
+			"text": "Вот, просто открой книгу и изучи навык. Мой совет - если хочешь получить больше книг навыков, выполняй просьбы стражников. Удачи в путешествии."
+		}
+	},
+	"tasks": [{
+		"entity": "minecraft:pillager",
+		"id": "quest_giver:kill",
+		"times": 10
+	}],
+	"rewards": [{
+		"command": "/give @p epicfight:skillbook{skill:\"epicfight:roll\"}",
+		"id": "quest_giver:command"
+	}]
+}

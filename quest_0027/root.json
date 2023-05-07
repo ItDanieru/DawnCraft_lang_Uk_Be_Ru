@@ -1,0 +1,12 @@
+{
+  "reputation": 20,
+  "icon": "minecraft:iron_ingot",
+  "start": {
+    "title": {
+      "text": "Привет!"
+    },
+    "description": {
+      "text": "Привет, парень! как на счет небольшого испытания?"
+    }
+  }
+}

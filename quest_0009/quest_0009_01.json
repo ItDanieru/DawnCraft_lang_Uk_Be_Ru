@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0009_01b",
+  "reputation": 14,
+  "icon": "minecraft:book",
+  "start": {
+    "title": {
+      "text": "Запрос на добычу"
+    },
+    "description": {
+      "text": "Пожалуйста, возвращайтесвозвращайся, когда соберешь $(red)4 чернильных мешка$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Большое спасибо. К сожалению, выяснилось, что наши запасы бумаги также на исходе... Не мог бы ты помочь нам раздобыть 10 листов бумаги? Мы скоро пополним запасы, но мы будем очень признательны за твою помощь."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:ink_sac"
+      },
+      "id": "quest_giver:gift",
+      "times": 4
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    }
+  ]
+}

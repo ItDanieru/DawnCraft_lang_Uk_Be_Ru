@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Ну и?"
+    },
+    "description": {
+      "text": "Ты добыл $(red)5 гнилой плоти$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Хорошая работа, вот, держи."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:rotten_flesh"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

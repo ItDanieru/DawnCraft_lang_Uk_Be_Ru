@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:bow",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Ты можешь сделать мне $(red)лук$()? Наш оружейник сейчас занят."
+    }
+  }
+}

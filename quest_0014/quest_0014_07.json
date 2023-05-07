@@ -1,0 +1,40 @@
+{
+  "parent": "quest_giver:quest_0014_06",
+  "reputation": 10,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Путь к Хранителям Ока"
+    },
+    "description": {
+      "text": "Следующий Хранитель Ока - нежить. Точнее, нежить со множеством козырей в рукавах... Он окружен своими последователями, поэтому добраться до него может стать проблемной задачей."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Путь к Хранителям Ока"
+    },
+    "description": {
+      "text": "Повелитель Скелетов, вероятно, самая сильная нежить, которую я когда-либо видел. Я удивлен, что ты смог его одолеть. Ладно, посмотрим... Следующее Око охраняется известным Святым Рыцарем. Я не уверен, что это под силу даже тебе. В любом случае, я укажу тебе его местоположение. Действуй с осторожностью."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "endrem:magical_eye"
+      },
+      "id": "quest_giver:item_pickup",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/loot give @p loot minecraft:guildmaster5",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only simple_mobs:skeleton_lord_quest_complete",
+      "id": "quest_giver:command"
+    }
+  ]
+}
