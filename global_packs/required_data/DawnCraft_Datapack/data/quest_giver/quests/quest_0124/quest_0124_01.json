@@ -1,0 +1,37 @@
+{
+  "parent": "quest_giver:quest_0124_01b",
+  "reputation": 15,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Невыполнимое Задание!"
+    },
+    "description": {
+      "text": "Ты уже получил $(red)благословение касатки$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Интересно... так вот как это происходит. Ты хороший парень. Я рад, что встретил тебя! А теперь мне пора... Да благословит тебя Бог."
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "alexsmobs:alexsmobs/orcas_might"
+    }
+  ],
+  "rewards": [
+   {
+      "command": "/loot give @p loot minecraft:hunter1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    }
+  ]
+}
