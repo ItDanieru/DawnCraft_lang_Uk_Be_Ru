@@ -7,7 +7,7 @@
     <img height="38" img height="38" img src="Для Github/Discord.png">
 </a>
 <a href="https://www.curseforge.com/minecraft/modpacks/dawn-craft">
-    <img height="38" img height="38" img src="Для Github/curseforge.svg">
+    <img height="38" img height="38" img src="Для Github/curseforge.png">
 </a>
 <a href="https://t.me/ItDanieru">
     <img height="38" img src="Для Github/Telegram.png">
