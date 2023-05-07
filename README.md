@@ -1,5 +1,5 @@
 ## DawnCraft ModPack for Ukrainian, Belarusian, Russian players Localization.
-## ссылки | Links
+## Ссылки | Links
 <a href="https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fUjPx5jzd3m">
     <img height="48" img src="Для Github/Discord.png">
 </a>
@@ -16,14 +16,14 @@ ModPack Version: 1.15 - 1.16...
 
 
 
-### (🇬🇧) Work Progress  (🇬🇧)
+## (🇬🇧) Work Progress  (🇬🇧)
 - FTB Quests: 12/12. 100%
 - Quest Giver (Quest): 124/124 100%
 - Human NPC Quests 100%
 - DawnCraft Mobs lang file 100%
 * Other mods, modpack translate 25%
 
-### (🇷🇺) Прогресс Работы  (🇷🇺)
+## (🇷🇺) Прогресс Работы  (🇷🇺)
 - FTB Quests: 12/12. 100%
 - Quest Giver (Quest): 124/124 100%
 - Human NPC Quests 100%
