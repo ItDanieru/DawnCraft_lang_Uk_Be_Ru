@@ -1,0 +1,12 @@
+{
+  "reputation": 15,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Здравствуй"
+    },
+    "description": {
+      "text": "Приветствую. У меня есть несколько контрактов на уничтожение, Авантюрист."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 0,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Небольшая Помощь"
+    },
+    "description": {
+      "text": "Добрый человек! Не мог бы ты как-нибудь достать мне $(red)железный нож$()? Мой только что сломался..."
+    }
+  }
+}

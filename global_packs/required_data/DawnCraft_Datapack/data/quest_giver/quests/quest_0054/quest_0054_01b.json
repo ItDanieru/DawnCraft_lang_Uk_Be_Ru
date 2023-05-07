@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Ну и?"
+    },
+    "description": {
+      "text": "Наше оборудование малость сломалось... как думаешь, ты сможешь достать нам $(red)железную мотыгу$()?"
+    }
+  }
+}

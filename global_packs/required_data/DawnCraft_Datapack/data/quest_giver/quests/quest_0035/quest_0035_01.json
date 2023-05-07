@@ -1,0 +1,43 @@
+{
+  "parent": "quest_giver:quest_0035_01b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Заточка Ножа"
+    },
+    "description": {
+      "text": "Ты уже нашел $(red)5 блоков сланца$()? Моё лезвие затупилось."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Готово"
+    },
+    "description": {
+      "text": "Хорошая работа! Как и ожидалось, эта порода обладает как крупной, так и мелкой зернистостью. Большое спасибо! Вот, возьми, это твоя награда."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:deepslate"
+      },
+      "id": "quest_giver:gift",
+      "times": 5
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 2
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

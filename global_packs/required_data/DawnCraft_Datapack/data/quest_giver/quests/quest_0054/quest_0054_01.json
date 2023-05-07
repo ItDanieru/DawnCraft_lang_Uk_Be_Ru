@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0054_01b",
+  "reputation": 5,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Ну и?"
+    },
+    "description": {
+      "text": "Ты принёс $(red)железную мотыгу$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "О, ты принёс их... Благодарю. Мне неловко просить еще об одной услуге... Но сможешь ли ты сделать для нас $(red)2 буханки хлеба$()? Мы умеем только выращивать и собирать урожай. Ты можешь использовать пшеницу с нашей фермы!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:iron_hoe"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ]
+}

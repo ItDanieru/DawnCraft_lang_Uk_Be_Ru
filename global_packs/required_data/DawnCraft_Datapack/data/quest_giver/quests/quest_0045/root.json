@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Привет, можешь помочь мне раздобыть $(red)5 огненных стержней$() в Измерении Незера?"
+    }
+  }
+}

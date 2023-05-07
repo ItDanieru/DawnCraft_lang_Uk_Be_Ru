@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:quest_0030_01b",
+  "reputation": 12,
+  "icon": "minecraft:iron_helmet",
+  "start": {
+    "title": {
+      "text": "Ремесло плавильной печи"
+    },
+    "description": {
+      "text": "Привет. Ты уже сделал плавильную печь? Убедись, что ты создал новую, а не прихватил чужую!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Отлично!"
+    },
+    "description": {
+      "text": "Отлично! С помощью этого нового приспособления я, безусловно, смогу создавать более совершенное оборудование. Спасибо!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      },
+      "id": "quest_giver:craft",
+      "times": 1
+    },
+    {
+      "item": {
+        "item": "minecraft:blast_furnace"
+      },
+      "id": "quest_giver:gift",
+      "times": 1
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/advancement grant @p only custom:trade_armorer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

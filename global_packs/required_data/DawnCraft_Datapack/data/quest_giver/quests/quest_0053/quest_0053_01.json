@@ -1,0 +1,30 @@
+{
+  "parent": "quest_giver:quest_0053_01b",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Ну и?"
+    },
+    "description": {
+      "text": "Ты принёс $(red)2 луковицы$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Спасибо!"
+    },
+    "description": {
+      "text": "Отличная работа, парень. Принесёшь мне ещё $(red)2 арбузные семечки$()?"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:onion"
+      },
+      "id": "quest_giver:gift",
+      "times": 2
+    }
+  ]
+}

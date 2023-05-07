@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0053_05",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Ну и?"
+    },
+    "description": {
+      "text": "Как самонадеянно с твоей стороны. Я ничего не говорил о вознаграждении, не так ли? Вали, парень, пока я не позвал стражу."
+    }
+  }
+}

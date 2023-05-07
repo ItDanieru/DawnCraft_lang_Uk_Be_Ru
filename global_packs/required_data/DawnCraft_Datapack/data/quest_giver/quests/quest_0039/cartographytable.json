@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 10,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Разблокируйте Стол Картографа"
+    },
+    "description": {
+      "text": "О... хм, хорошо. Дай мне 15 Изумрудов, и я научу тебя, как им пользоваться."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Вот так."
+    },
+    "description": {
+      "text": "Не пугайся оборудования на столе, ты освоишь его!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:gift",
+      "times": 15
+    }
+  ],
+  "rewards": [
+    {
+      "command": "/pmmo admin @p add sailing level 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

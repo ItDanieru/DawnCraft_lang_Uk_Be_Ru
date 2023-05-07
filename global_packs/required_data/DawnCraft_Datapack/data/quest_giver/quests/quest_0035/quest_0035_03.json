@@ -1,0 +1,33 @@
+{
+	"parent": "quest_giver:quest_0035_03b",
+	"reputation": 35,
+	"icon": "minecraft:beef",
+	"start": {
+		"title": {
+			"text": "Incendium"
+		},
+		"description": {
+			"text": "$(light_blue)Леденящий меч$(). Скажи мне, если найдешь его в крепости пепельных пустошей."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Завершение"
+		},
+		"description": {
+			"text": "Значит... его действительно больше нет. Спасибо, что помог мне. Оставь меч себе. Мне больше нечем тебе отплатить."
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:diamond_sword",
+			"forge:nbt": "{CustomModelData:1450003,incendium:{item:'chilling_blade'}}"
+		},
+		"id": "quest_giver:item_pickup",
+		"times": 1
+	}],
+	"rewards": [{
+		"command": "/addreputation reputation:villager @p 3",
+		"id": "quest_giver:command"
+	}]
+}

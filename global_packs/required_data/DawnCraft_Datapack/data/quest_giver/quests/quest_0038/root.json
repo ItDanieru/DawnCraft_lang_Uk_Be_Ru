@@ -1,0 +1,12 @@
+{
+  "reputation": 13,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Привет!"
+    },
+    "description": {
+      "text": "Привет, Авантюрист! Мне нужна твоя помощь."
+    }
+  }
+}

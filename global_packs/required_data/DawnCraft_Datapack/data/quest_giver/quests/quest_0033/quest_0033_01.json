@@ -1,0 +1,50 @@
+{
+  "parent": "quest_giver:quest_0033_01b",
+  "reputation": 7,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Экзотическое Мясо"
+    },
+    "description": {
+      "text": "Ты принес $(red)мясо и шкуру кенгуру$()?"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Мазл Тов!"
+    },
+    "description": {
+      "text": "Ах... так вот что такое кенгуру. Действительно нежное мясо... С другой стороны, шкура не так хороша, как обычная кожа, которую мы используем. Однако, трофей хороший... Большое спасибо, Авантюрист. Мне нечего тебе дать... Хотя, вот, возьми эти куски говядины. Тушу привезли только сегодня, так что она свежая!"
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "alexsmobs:kangaroo_meat"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    },
+    {
+      "item": {
+        "item": "alexsmobs:kangaroo_hide"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:beef"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    }
+  ]
+}

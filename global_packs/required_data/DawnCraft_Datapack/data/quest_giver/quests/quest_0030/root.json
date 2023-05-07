@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:blast_furnace",
+  "start": {
+    "title": {
+      "text": "Привет!"
+    },
+    "description": {
+      "text": "Привет, незнакомец, мне нужна твоя помощь!"
+    }
+  }
+}

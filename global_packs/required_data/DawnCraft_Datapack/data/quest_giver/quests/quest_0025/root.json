@@ -1,0 +1,12 @@
+{
+  "reputation": 12,
+  "icon": "minecraft:iron_sword",
+  "start": {
+    "title": {
+      "text": "Задача — Уничтожить"
+    },
+    "description": {
+      "text": "Авантюрист... Интересует задание на убийство?"
+    }
+  }
+}

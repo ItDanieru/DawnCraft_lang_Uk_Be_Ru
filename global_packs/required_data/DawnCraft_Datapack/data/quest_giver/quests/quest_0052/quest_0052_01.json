@@ -1,0 +1,44 @@
+{
+	"parent": "quest_giver:quest_0052_01b",
+	"reputation": 1,
+	"icon": "minecraft:wheat_seeds",
+	"start": {
+		"title": {
+			"text": "Ну и?"
+		},
+		"description": {
+			"text": "Забыл? Не переживай, позволь напомнить. Мне нужен $(red)тюк соломы$()."
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Спасибо!"
+		},
+		"description": {
+			"text": "Соломенный тюк! Теперь мы можем сделать себе новенькие соломенные шляпы! Спасибо, незнакомец."
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "farmersdelight:straw_bale"
+		},
+		"id": "quest_giver:gift",
+		"times": 1
+	}],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_farmer",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:villager @p 1",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 1
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+  "parent": "quest_giver:quest_0038_01b",
+  "reputation": 13,
+  "icon": "minecraft:map",
+  "start": {
+    "title": {
+      "text": "Исследование!"
+    },
+    "description": {
+      "text": "Вернись ко мне, когда закончишь путешествие в эти 3 биома: Древние Пески, Вулканические Пики, Белые Скалы."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Готово"
+    },
+    "description": {
+      "text": "Спасибо за подробные объяснения. Думаю, я смогу нарисовать их по твоему описанию. Вот, держи свою награду."
+    }
+  },
+  "tasks": [
+	{
+	   "id": "afptweaks:advancement",
+	   "advancement": "custom:traveller"
+	}
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 6
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_cartographer",
+      "id": "quest_giver:command"
+    }
+  ]
+}

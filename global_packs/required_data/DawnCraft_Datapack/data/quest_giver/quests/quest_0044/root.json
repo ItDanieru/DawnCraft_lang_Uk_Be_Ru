@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:brewing_stand",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Привет, поможешь мне добыть $(red)5 паучьих глаз$()?"
+    }
+  }
+}

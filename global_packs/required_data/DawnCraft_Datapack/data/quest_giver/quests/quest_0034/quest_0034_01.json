@@ -1,0 +1,47 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 5,
+  "icon": "minecraft:pumpkin",
+  "start": {
+    "title": {
+      "text": "Фаршированная Тыква"
+    },
+    "description": {
+      "text": "Вы уже приготовили $(yellow)фаршированную тыкву$()? Не переживайте, я понимаю, что на это нужно время!"
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Готово"
+    },
+    "description": {
+      "text": "Запах просто изумительный! Спасибо большое, этого моей семье хватит на несколько дней."
+    }
+  },
+  "tasks": [
+    {
+      "item": {
+        "item": "farmersdelight:stuffed_pumpkin_block"
+      },
+      "id": "quest_giver:gift",
+      "amount": 1
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 1
+    },
+    {
+      "command": "/addreputation reputation:villager @p 1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/advancement grant @p only custom:trade_butcher",
+      "id": "quest_giver:command"
+    }
+  ]
+}

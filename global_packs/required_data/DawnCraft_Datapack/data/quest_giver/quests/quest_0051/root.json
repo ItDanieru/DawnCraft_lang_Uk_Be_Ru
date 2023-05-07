@@ -1,0 +1,12 @@
+{
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Эй!"
+    },
+    "description": {
+      "text": "Здравствуйте, добрый господин! Не могли бы вы помочь мне кое с чем?"
+    }
+  }
+}

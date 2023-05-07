@@ -1,0 +1,41 @@
+{
+  "parent": "quest_giver:quest_0046_01b",
+  "reputation": 15,
+  "icon": "minecraft:paper",
+  "start": {
+    "title": {
+      "text": "Здравствуй"
+    },
+    "description": {
+      "text": "Похоже, ты еще не закрыл свой контракт. Или ты о нём забыл? Одолей $(red)2 серябряных чудовищ$()."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Ну вот."
+    },
+    "description": {
+      "text": "Ты хорошо справился. Я чувствую, как злые силы ненадолго отступили. Но они никогда не остановятся. Приходи, если захочешь взять новый контракт."
+    }
+  },
+  "tasks": [ 
+    {
+      "entity": "bloodandmadness:silverbeast",
+      "id": "quest_giver:kill",
+      "times": 2
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 4
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
+      "id": "quest_giver:command"
+    }
+  ]
+}

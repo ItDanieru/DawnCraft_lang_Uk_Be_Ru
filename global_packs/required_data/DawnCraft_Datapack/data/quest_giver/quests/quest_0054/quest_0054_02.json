@@ -1,0 +1,44 @@
+{
+	"parent": "quest_giver:quest_0054_01",
+	"reputation": 5,
+	"icon": "minecraft:wheat_seeds",
+	"start": {
+		"title": {
+			"text": "Ну и?"
+		},
+		"description": {
+			"text": "Дай мне знать, если испечёшь $(red)2 буханки хлеба$(). Не спеши!"
+		}
+	},
+	"complete": {
+		"title": {
+			"text": "Спасибо!"
+		},
+		"description": {
+			"text": "Большое спасибо! Пожалуйста, прими это, здесь немного, но это всё, что я могу себе сейчас позволить."
+		}
+	},
+	"tasks": [{
+		"item": {
+			"item": "minecraft:bread"
+		},
+		"id": "quest_giver:gift",
+		"times": 2
+	}],
+	"rewards": [{
+			"command": "/advancement grant @p only custom:trade_farmer",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/addreputation reputation:villager @p 2",
+			"id": "quest_giver:command"
+		},
+		{
+			"item": {
+				"item": "minecraft:emerald"
+			},
+			"id": "quest_giver:item",
+			"times": 2
+		}
+	]
+}

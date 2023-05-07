@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:quest_0053_04",
+  "reputation": 0,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Ну и?"
+    },
+    "description": {
+      "text": "Отлично... Почему ты ещё здесь? Ты рассчитываешь на какую-то награду?"
+    }
+  }
+}

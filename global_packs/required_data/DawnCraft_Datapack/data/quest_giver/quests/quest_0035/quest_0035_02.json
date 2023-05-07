@@ -1,0 +1,36 @@
+{
+  "parent": "quest_giver:quest_0035_02b",
+  "reputation": 35,
+  "icon": "minecraft:beef",
+  "start": {
+    "title": {
+      "text": "Incendium"
+    },
+    "description": {
+      "text": "Запомни, Пепельные пустоши в Незере. Вернись ко мне после того, как побываешь там."
+    }
+  },
+  "complete": {
+    "title": {
+      "text": "Конец"
+    },
+    "description": {
+      "text": "Это восхитительно... Спасибо, что рассказал об этом месте. Вот твоя награда. Ну, а теперь иди... Мне нужно принять одно важное решение."
+    }
+  },
+  "tasks": [
+    {
+		"id": "afptweaks:advancement",
+		"advancement": "custom:scarlet_rot"
+    }
+  ],
+  "rewards": [
+    {
+      "item": {
+        "item": "minecraft:emerald"
+      },
+      "id": "quest_giver:item",
+      "times": 5
+    }
+  ]
+}

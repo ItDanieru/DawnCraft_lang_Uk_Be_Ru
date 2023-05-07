@@ -1,0 +1,13 @@
+{
+  "parent": "quest_giver:root",
+  "reputation": 1,
+  "icon": "minecraft:wheat_seeds",
+  "start": {
+    "title": {
+      "text": "Привет"
+    },
+    "description": {
+      "text": "Наши с другом шляпы немного износились. Мы хотим сделать новые... Не мог бы ты принести мне $(red)тюк соломы$()?"
+    }
+  }
+}
