@@ -1,0 +1,12 @@
+{
+  "reputation": 25,
+  "icon": "minecraft:diamond",
+  "start": {
+    "title": {
+      "text": "Неважно."
+    },
+    "description": {
+      "text": "Житель в последнюю секунду решил не разговаривать с вами."
+    }
+  }
+}
