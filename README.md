@@ -3,6 +3,15 @@
 |CurseForge Link: [>>Here<<](https://www.curseforge.com/minecraft/modpacks/dawn-craft "DawnCraft - An Adventure RPG Modpack")
 | Discord Dev. DawnCraft: [>>Here<<](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fUjPx5jzd3m)
 | Мой Телеграм (My Telegram): [>>Here<<](https://t.me/ItDanieru) |
+<a href="https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fUjPx5jzd3m">
+    <img height="38" C:\Users\Admin\Downloads\Discord.png">
+</a>
+<a href="https://www.curseforge.com/minecraft/modpacks/dawn-craft "DawnCraft - An Adventure RPG Modpack"">
+    <img height="38" C:\Users\Admin\Downloads.svg">
+</a>
+<a href="https://t.me/ItDanieru">
+    <img height="38" C:\Users\Admin\Downloads\Telegram.png">
+</a>
 
 ModPack Version: 1.15 - 1.16...
 
