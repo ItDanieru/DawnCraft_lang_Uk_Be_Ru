@@ -16,22 +16,19 @@ ModPack Version: 1.15 - 1.16...
 
 
 
-### Work Progress (Eng)
+### (🇬🇧) Work Progress  (🇬🇧)
+# FTB Quests: 12/12. 100%
+# Quest Giver (Quest): 124/124 100%
+# Human NPC Quests 100%
+# DawnCraft Mobs lang file 100%
+# Other mod, modpack translate 25%
 
- - FTB Quests: 12/12. 100% 
- - Quest Giver (Quest): 124/124 100%
- - Human NPC Quests 100%            
- - DawnCraft Mobs lang file 100% 
- - Other mod, modpack translate 25%
-
-
-### Прогресс Работы (Rus)
-
- - FTB Quests: 12/12. 100% 
- - Quest Giver (Quest): 124/124 100%
- - Human NPC Quests 100%            
- - DawnCraft Mobs lang file 100% 
- - Другие моды, сборки переведены на 25%
+### (🇷🇺) Прогресс Работы  (🇷🇺)
+# FTB Quests: 12/12. 100%
+# Quest Giver (Quest): 124/124 100%
+# Human NPC Quests 100%
+# DawnCraft Mobs lang file 100%
+# Другие моды, сборки переведены на 25%
 
 ### FAQ
 - How Download? Как Скачать?
