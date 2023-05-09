@@ -1,16 +1,16 @@
 ## DawnCraft ModPack for Ukrainian, Belarusian, Russian players Localization.
 ## Ссылки | Links
 <a href="https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fUjPx5jzd3m">
-    <img height="46" img src="Для Github/Discord.png">
+    <img height="44" img src="Для Github/Discord.png">
 </a>
 <a href="https://www.curseforge.com/minecraft/modpacks/dawn-craft">
-    <img height="46" img src="Для Github/curseforge.png">
+    <img height="44" img src="Для Github/curseforge.png">
 </a>
 <a href="https://t.me/ItDanieru">
-    <img height="46" img src="Для Github/Telegram.png"> 
+    <img height="44" img src="Для Github/Telegram.png"> 
 </a>
 <a href="https://discord.gg/2w8H8YYQ">
-    <img height="46" img src="Для Github/MyDiscord.png">
+    <img height="44" img src="Для Github/MyDiscord.png">
 
 ## Хочу отдельно поблагодарить АpmaGEEDoH, за Неоценимую помощь в переводе сборки.
 
