@@ -1,4 +1,9 @@
 ## DawnCraft ModPack for Ukrainian, Belarusian, Russian players Localization.
+## Хочу сообщить  о том что перевод модов V V V до Актуальной версии приостановлен. что бы бросить все свои силы на перевод остальных модов.
+- FTB Quests: 12/12. 
+- Quest Giver (Quest): 124/124
+- Human NPC Quests 
+- DawnCraft Mobs lang file
 ## Ссылки | Links
 <a href="https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fdiscord.com%252finvite%252fUjPx5jzd3m">
     <img height="48" img src="Для Github/Discord.png">
