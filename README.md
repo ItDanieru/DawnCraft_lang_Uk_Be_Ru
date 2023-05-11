@@ -9,7 +9,7 @@
 <a href="https://t.me/ItDanieru">
     <img height="48" img src="Для Github/Telegram.png"> 
 </a>
-<a href="https://discord.gg/2w8H8YYQ">
+<a href="https://discord.gg/DmY5pfN6PR">
     <img height="48" img src="Для Github/MyDiscord.png">
 
 ## Хочу отдельно поблагодарить АpmaGEEDoH, за Неоценимую помощь в переводе сборки.
