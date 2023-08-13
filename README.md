@@ -39,7 +39,8 @@
 
 - Для Версии Сборки: 1.15 - 1.16...
 ## FAQ
-- How Download? Как Скачать?
+- How Download? Как Скачать? 
+ Видео Гайд по установке - https://youtu.be/ZUfgwaBxx20
 ![image](https://user-images.githubusercontent.com/54354556/236098543-9721d28f-30d3-41e7-8386-f704b45d3036.png)
 1. Нажать на кнопку code.
 2. Нажать Download ZIP.
