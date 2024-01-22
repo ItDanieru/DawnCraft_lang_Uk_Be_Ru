@@ -3,9 +3,9 @@
 	group: ""
 	order_index: 11
 	filename: "bossesminibosses_in_this_realm"
-	title: "Notorious Creatures in this Realm..."
+	title: "Печально известные существа в этой Вселенной..."
 	icon: "apotheosis:boss_summoner"
-	subtitle: ["Defeat these creatures to prove your worth..."]
+	subtitle: ["Победите их чтобы доказать свою Значимость..."]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
