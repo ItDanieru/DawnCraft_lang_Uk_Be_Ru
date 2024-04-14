@@ -7,7 +7,7 @@
       "text": "Ну и?"
     },
     "description": {
-      "text": "Ты уже нашел $(red)Сердитое арчивудское бревно$()?"
+      "text": "Ты уже нашел $(red)Бревно красного дерева$()?"
     }
   },
   "complete": {
@@ -21,7 +21,7 @@
   "tasks": [
     {
       "item": {
-        "item": "ars_nouveau:purple_archwood_log"
+        "item": "hexerei:mahogany_log"
       },
       "id": "quest_giver:gift",
       "times": 1
