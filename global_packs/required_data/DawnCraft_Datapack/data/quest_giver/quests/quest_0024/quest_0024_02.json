@@ -19,15 +19,15 @@
       "text": "То, что ты сделал... Ты герой, Авантюрист. Мы никогда этого не забудем. Я научу тебя новому боевому навыку - Берсерк."
     }
   },
-  "tasks": [
+ "tasks": [
     {
-      "id": "afptweaks:follow_quest",
-       "structure": "#minecraft:village"
+      "id": "dawncraft:follow_quest",
+      "structure": "#minecraft:village"
     }
   ],
   "rewards": [
     {
-      "command": "/give @p epicfight:skillbook{skill:\"epicfight:berserker\"}",
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:death_harvest\"}",
       "id": "quest_giver:command"
     }
   ]
