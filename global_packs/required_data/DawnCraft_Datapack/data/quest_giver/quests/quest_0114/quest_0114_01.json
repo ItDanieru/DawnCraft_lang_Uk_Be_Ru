@@ -20,7 +20,7 @@
   },
   "tasks": [
     {
-      "entity": "ob_aquamirae:captain_cornelia",
+      "entity": "aquamirae:captain_cornelia",
       "id": "quest_giver:kill",
       "times": 1
     }
@@ -42,6 +42,10 @@
     },
     {
       "command": "/advancement grant @p only custom:trade_oceanographer",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/addreputation reputation:villager @p 2",
       "id": "quest_giver:command"
     }
   ]
