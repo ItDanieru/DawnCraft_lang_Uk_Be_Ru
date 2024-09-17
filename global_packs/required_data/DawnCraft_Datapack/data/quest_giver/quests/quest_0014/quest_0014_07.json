@@ -27,13 +27,21 @@
       "times": 1
     }
   ],
-  "rewards": [
+ "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:sentinel_tree \"Main Quest - Guardian Tree\"",
+      "id": "quest_giver:command"
+    },
     {
       "command": "/loot give @p loot minecraft:guildmaster5",
       "id": "quest_giver:command"
     },
     {
       "command": "/advancement grant @p only simple_mobs:skeleton_lord_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster7 true",
       "id": "quest_giver:command"
     }
   ]
