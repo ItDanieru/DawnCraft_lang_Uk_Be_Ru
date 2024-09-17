@@ -18,18 +18,26 @@
       "text": "Вот здесь. Пожалуйста, поторопись! Мы не знаем, что они хотят сделать с ребёнком."
     }
   },
-  "tasks": [
-     {
+ "tasks": [
+    {
       "item": {
-	 "item": "minecraft:paper"
+        "item": "minecraft:paper"
       },
       "id": "quest_giver:gift",
       "amount": 1
-     }
+    }
   ],
   "rewards": [
-  {
+    {
+      "command": "/dc addWaypoint @p quest_giver:pillager_hideout \"Rescue Request - Pillager Hideout\"",
+      "id": "quest_giver:command"
+    },
+    {
       "command": "/loot give @p loot minecraft:guard1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard1 true",
       "id": "quest_giver:command"
     }
   ]
