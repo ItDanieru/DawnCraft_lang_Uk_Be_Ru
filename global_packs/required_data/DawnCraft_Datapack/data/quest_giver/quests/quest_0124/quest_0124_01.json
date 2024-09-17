@@ -18,19 +18,27 @@
       "text": "Интересно... так вот как это происходит. Ты хороший парень. Я рад, что встретил тебя! А теперь мне пора... Да благословит тебя Бог."
     }
   },
-  "tasks": [
+ "tasks": [
     {
-		"id": "afptweaks:advancement",
-		"advancement": "alexsmobs:alexsmobs/orcas_might"
+      "id": "dawncraft:advancement",
+      "advancement": "alexsmobs:alexsmobs/orcas_might"
     }
   ],
   "rewards": [
-   {
+    {
+      "command": "/dc addWaypoint @p custom:rootless \"Floating Palace\"",
+      "id": "quest_giver:command"
+    },
+    {
       "command": "/loot give @p loot minecraft:hunter1",
       "id": "quest_giver:command"
     },
     {
       "command": "/addreputation reputation:villager @p 3",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p hunter1 true",
       "id": "quest_giver:command"
     }
   ]
