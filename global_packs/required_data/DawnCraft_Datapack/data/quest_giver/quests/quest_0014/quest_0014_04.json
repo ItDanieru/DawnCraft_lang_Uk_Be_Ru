@@ -27,7 +27,11 @@
       "times": 1
     }
   ],
-  "rewards": [
+ "rewards": [
+    {
+      "command": "/dc addWaypoint @p custom:arena \"Main Quest - Knight Rober's Arena\"",
+      "id": "quest_giver:command"
+    },
     {
       "command": "/loot give @p loot minecraft:guildmaster2",
       "id": "quest_giver:command"
@@ -45,12 +49,16 @@
       "id": "quest_giver:command"
     },
     {
-      "command": "/gamestage add @p AdvancedSmelting",
+      "command": "/gamestage add @p AdvancedSmelting true",
       "id": "quest_giver:command"
     },
     {
       "command": "/advancement grant @p only simple_mobs:corrupt_ogre_quest_complete",
       "id": "quest_giver:command"
-    } 
+    },
+    {
+      "command": "/gamestage add @p guildmaster4 true",
+      "id": "quest_giver:command"
+    }
   ]
 }
