@@ -19,17 +19,25 @@
     }
   },
   "tasks": [
-     {
+    {
       "item": {
-	 "item": "minecraft:paper"
+        "item": "minecraft:paper"
       },
       "id": "quest_giver:gift",
       "amount": 1
-     }
+    }
   ],
   "rewards": [
-  {
+    {
+      "command": "/dc addWaypoint @p custom:dojo \"Foreign Outlaws' Dojo\"",
+      "id": "quest_giver:command"
+    },
+    {
       "command": "/loot give @p loot minecraft:cartographer1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p cartographer1 true",
       "id": "quest_giver:command"
     }
   ]
