@@ -18,12 +18,15 @@
 			"text": "Потрясающе! Ты действительно справился! Честно говоря, я не был до конца уверен, что ребёнок жив... Хорошо, я обучу тебя новому навыку - «Мастер Меча». Это лучшее, что я могу тебе предложить."
 		}
 	},
-	"tasks": [{
-		"id": "afptweaks:follow_quest",
-		"structure": "#minecraft:village"
-	}],
-	"rewards": [{
-			"command": "/give @p epicfight:skillbook{skill:\"epicfight:swordmaster\"}",
+	"tasks": [
+		{
+			"id": "dawncraft:follow_quest",
+			"structure": "#minecraft:village"
+		}
+	],
+	"rewards": [
+		{
+			"command": "/give @p epicfight:skillbook{skill:\"epicfight:meteor_slam\"}",
 			"id": "quest_giver:command"
 		},
 		{
