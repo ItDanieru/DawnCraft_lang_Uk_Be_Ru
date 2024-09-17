@@ -29,6 +29,10 @@
   ],
   "rewards": [
     {
+      "command": "/dc addWaypoint @p custom:floating_island \"Main Quest - Floating Island\"",
+      "id": "quest_giver:command"
+    },
+    {
       "command": "/loot give @p loot minecraft:guildmaster4",
       "id": "quest_giver:command"
     },
@@ -43,6 +47,10 @@
     {
       "command": "/advancement grant @p only simple_mobs:nine_tails_quest_complete",
       "id": "quest_giver:command"
-    }    
+    },
+    {
+      "command": "/gamestage add @p guildmaster6 true",
+      "id": "quest_giver:command"
+    }
   ]
 }
