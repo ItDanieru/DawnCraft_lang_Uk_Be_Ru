@@ -18,18 +18,18 @@
       "text": "Приятно иметь с тобой дело. Спину только не надорви."
     }
   },
-  "tasks": [
-     {
+ "tasks": [
+    {
       "item": {
-	 "item": "minecraft:emerald"
+        "item": "minecraft:emerald"
       },
       "id": "quest_giver:gift",
-      "amount": 25
-     }
+      "amount": 15
+    }
   ],
   "rewards": [
     {
-      "command": "/give @p epicfight:skillbook{skill:\"epicfight:dualgreatsword\"}",
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:step\"}",
       "id": "quest_giver:command"
     }
   ]
