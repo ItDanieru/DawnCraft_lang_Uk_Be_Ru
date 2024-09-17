@@ -18,13 +18,32 @@
 			"text": "Вот, просто открой книгу и изучи навык. Мой совет - если хочешь получить больше книг навыков, выполняй просьбы стражников. Удачи в путешествии."
 		}
 	},
-	"tasks": [{
-		"entity": "minecraft:pillager",
-		"id": "quest_giver:kill",
-		"times": 10
-	}],
-	"rewards": [{
-		"command": "/give @p epicfight:skillbook{skill:\"epicfight:roll\"}",
-		"id": "quest_giver:command"
-	}]
+	"tasks": [
+		{
+			"entity": "minecraft:pillager",
+			"id": "quest_giver:kill",
+			"times": 10
+		}
+	],
+	"rewards": [
+		{
+			"item": {
+				"item": "paraglider:spirit_orb"
+			},
+			"id": "quest_giver:item",
+			"times": 4
+		},
+		{
+			"command": "/dc addWaypoint @p goblinsanddungeons:ruined_keep \"Main Quest - Goblin King's Keep\"",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/loot give @p loot minecraft:guildmaster0",
+			"id": "quest_giver:command"
+		},
+		{
+			"command": "/gamestage add @p guildmaster2 true",
+			"id": "quest_giver:command"
+		}
+	]
 }
