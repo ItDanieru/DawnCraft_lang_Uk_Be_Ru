@@ -19,17 +19,25 @@
     }
   },
   "tasks": [
-     {
+    {
       "item": {
-	 "item": "minecraft:paper"
+        "item": "minecraft:paper"
       },
       "id": "quest_giver:gift",
       "times": 1
-     }
+    }
   ],
   "rewards": [
-  {
+    {
+      "command": "/dc addWaypoint @p custom:librarian_ruin \"Librarian's Request\"",
+      "id": "quest_giver:command"
+    },
+    {
       "command": "/loot give @p loot minecraft:librarian1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p librarian1 true",
       "id": "quest_giver:command"
     }
   ]
