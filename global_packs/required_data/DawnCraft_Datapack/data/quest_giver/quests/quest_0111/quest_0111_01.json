@@ -18,18 +18,26 @@
       "text": "Здесь. Ты легко заметишь его, если подойдешь поближе. Удачи, и принеси мне его станки."
     }
   },
-  "tasks": [
-     {
+ "tasks": [
+    {
       "item": {
-	 "item": "minecraft:paper"
+        "item": "minecraft:paper"
       },
       "id": "quest_giver:gift",
       "amount": 1
-     }
+    }
   ],
   "rewards": [
-  {
+    {
+      "command": "/dc addWaypoint @p quest_giver:giant_hideout \"Extermination Request - The Giant\"",
+      "id": "quest_giver:command"
+    },
+    {
       "command": "/loot give @p loot minecraft:guard4",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guard4 true",
       "id": "quest_giver:command"
     }
   ]
