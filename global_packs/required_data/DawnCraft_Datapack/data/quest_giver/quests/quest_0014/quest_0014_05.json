@@ -29,6 +29,10 @@
   ],
   "rewards": [
     {
+      "command": "/dc addWaypoint @p custom:ninetail_farm \"Main Quest - Ninetail's Farm\"",
+      "id": "quest_giver:command"
+    },
+    {
       "command": "/loot give @p loot minecraft:guildmaster3",
       "id": "quest_giver:command"
     },
@@ -43,6 +47,10 @@
     {
       "command": "/advancement grant @p only simple_mobs:knight_rober_quest_complete",
       "id": "quest_giver:command"
-    }    
+    },
+    {
+      "command": "/gamestage add @p guildmaster5 true",
+      "id": "quest_giver:command"
+    }
   ]
 }
