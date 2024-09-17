@@ -29,7 +29,7 @@
   ],
   "rewards": [
     {
-      "command": "/give @p epicfight:skillbook{skill:\"epicfight:guard\"}",
+      "command": "/give @p epicfight:skillbook{skill:\"epicfight:demolition_leap\"}",
       "id": "quest_giver:command"
     }
   ]
