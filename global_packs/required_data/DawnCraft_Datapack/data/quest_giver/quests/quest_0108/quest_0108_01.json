@@ -25,8 +25,10 @@
       "id": "quest_giver:gift",
       "times": 15
 	}],
-	"rewards": [{
-		"command": "give @p epicfight:skillbook{skill:\"epicfight:energizing_guard\"}",
-		"id": "quest_giver:command"
-	}]
+	"rewards": [
+		{
+			"command": "give @p epicfight:skillbook{skill:\"wom:vampirize\"}",
+			"id": "quest_giver:command"
+		}
+	]
 }
