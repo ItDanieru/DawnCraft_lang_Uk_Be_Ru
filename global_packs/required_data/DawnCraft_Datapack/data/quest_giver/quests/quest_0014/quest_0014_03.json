@@ -29,11 +29,19 @@
   ],
   "rewards": [
     {
+      "command": "/dc addWaypoint @p custom:ogre_dwelling \"Main Quest - Corrupted Ogre's Dwelling\"",
+      "id": "quest_giver:command"
+    },
+    {
       "command": "/loot give @p loot minecraft:guildmaster1",
       "id": "quest_giver:command"
     },
-     {
+    {
       "command": "/advancement grant @p only simple_mobs:goblin_king_quest_complete",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p guildmaster3 true",
       "id": "quest_giver:command"
     }
   ]
