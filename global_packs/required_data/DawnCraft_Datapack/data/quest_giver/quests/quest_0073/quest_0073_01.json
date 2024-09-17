@@ -53,7 +53,7 @@
 				"item": "irons_spellbooks:arcane_ingot"
 			},
 			"id": "quest_giver:item",
-			"times": 20
+			"times": 10
 		}
 	]
 }
