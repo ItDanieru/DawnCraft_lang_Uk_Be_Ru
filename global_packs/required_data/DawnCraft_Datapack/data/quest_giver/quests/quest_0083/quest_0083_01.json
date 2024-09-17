@@ -19,17 +19,25 @@
     }
   },
   "tasks": [
-     {
+    {
       "item": {
-	 "item": "minecraft:paper"
+        "item": "minecraft:paper"
       },
       "id": "quest_giver:gift",
       "times": 1
-     }
+    }
   ],
   "rewards": [
     {
+      "command": "/dc addWaypoint @p custom:toolsmith_ruin \"Toolsmith's Request\"",
+      "id": "quest_giver:command"
+    },
+    {
       "command": "/loot give @p loot minecraft:toolsmith1",
+      "id": "quest_giver:command"
+    },
+    {
+      "command": "/gamestage add @p toolsmith1 true",
       "id": "quest_giver:command"
     }
   ]
