@@ -1,7 +1,7 @@
 {
 	id: "3EE7B887A0FC6FCD"
-	group: ""
-	order_index: 2
+	group: "0A520B482648497B"
+	order_index: 0
 	filename: "dawncraft"
 	title: "Приключения Начинаются!"
 	icon: "minecraft:writable_book"
@@ -10,14 +10,10 @@
 	quests: [
 		{
 			title: "Найди свой путь!"
-			icon: {
-				id: "antiqueatlas:antique_atlas"
-				Count: 1b
-				tag: { }
-			}
+			icon: "minecraft:filled_map"
 			x: -3.75d
 			y: -5.25d
-			description: ["Старинный Атлас - выполняет функцию карты в этом модпаке. По умолчанию игроки появляются с одним атласом, но при потере можно создать новый. Маркеры могут быть добавлены для обозначения точек интереса, а маркеры смерти будут добавлены автоматически. Его ориентация совпадает с ориентацией ванильных карт, поэтому он может стать отличным инструментом для ориентирования при поиске одного из многочисленных мест на карте этого модпака, например, боссов. "]
+			description: ["Use the Journey Map to locate yourself! Press “M” to open the map. Markers can be added to denote points of interest, and death markers will be added automatically. When you obtain a map from villager quests, a waypoint will be added to your Journey Map for easier navigation."]
 			dependencies: ["6A377E0BD0B45BC5"]
 			size: 1.5d
 			id: "2E56DF35467BE295"
@@ -26,16 +22,23 @@
 				type: "checkmark"
 				title: "Прочитай"
 			}]
-			rewards: [{
-				id: "55079C6539007C92"
-				type: "xp"
-				auto: "enabled"
-				xp: 1
-			}]
+			rewards: [
+				{
+					id: "55079C6539007C92"
+					type: "xp"
+					auto: "enabled"
+					xp: 1
+				}
+				{
+					id: "4EF1DA20073480F5"
+					type: "item"
+					item: "minecraft:spyglass"
+				}
+			]
 		}
 		{
 			title: "Жители и Квесты"
-			icon: "minecraft:filled_map"
+			icon: "ftbquests:book"
 			x: -1.5d
 			y: -5.25d
 			description: [
@@ -70,19 +73,11 @@
 				type: "item"
 				item: "simple_mobs:bundled_emerald"
 			}]
-			rewards: [
-				{
-					id: "4587D492A0846A3B"
-					type: "item"
-					item: "minecraft:emerald"
-					count: 8
-				}
-				{
-					id: "082DDCA28613EE54"
-					type: "item"
-					item: "minecraft:leather"
-				}
-			]
+			rewards: [{
+				id: "41D3DABF7AA2424E"
+				type: "item"
+				item: "minecraft:cookie"
+			}]
 		}
 		{
 			title: "Торговые Контракты"
@@ -101,7 +96,7 @@
 				id: "115B9E78CBA9C892"
 				type: "xp"
 				auto: "enabled"
-				xp: 10
+				xp: 1
 			}]
 		}
 		{
@@ -179,6 +174,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -187,7 +183,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_toolsmith"
 				command: "/advancement grant @p only custom:trade_armorer"
-				player_command: false
 			}]
 		}
 		{
@@ -232,6 +227,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -240,7 +236,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_cartographer"
 				command: "/advancement grant @p only custom:trade_butcher"
-				player_command: false
 			}]
 		}
 		{
@@ -285,6 +280,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -293,7 +289,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_cartographer"
 				command: "/advancement grant @p only custom:trade_cartographer"
-				player_command: false
 			}]
 		}
 		{
@@ -337,6 +332,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -345,7 +341,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_armorer"
 				command: "/advancement grant @p only custom:trade_cleric"
-				player_command: false
 			}]
 		}
 		{
@@ -404,6 +399,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -412,7 +408,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_armorer"
 				command: "/advancement grant @p only custom:trade_farmer"
-				player_command: false
 			}]
 		}
 		{
@@ -463,6 +458,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -471,7 +467,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_armorer"
 				command: "/advancement grant @p only custom:trade_angler"
-				player_command: false
 			}]
 		}
 		{
@@ -528,6 +523,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -536,7 +532,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_armorer"
 				command: "/advancement grant @p only custom:trade_fletcher"
-				player_command: false
 			}]
 		}
 		{
@@ -572,6 +567,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -580,7 +576,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_armorer"
 				command: "/advancement grant @p only custom:trade_leatherworker"
-				player_command: false
 			}]
 		}
 		{
@@ -625,6 +620,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -633,7 +629,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_armorer"
 				command: "/advancement grant @p only custom:trade_librarian"
-				player_command: false
 			}]
 		}
 		{
@@ -671,6 +666,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -679,7 +675,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_butcher"
 				command: "/advancement grant @p only custom:trade_mason"
-				player_command: false
 			}]
 		}
 		{
@@ -729,6 +724,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -737,7 +733,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_armorer"
 				command: "/advancement grant @p only custom:trade_shepherd"
-				player_command: false
 			}]
 		}
 		{
@@ -804,6 +799,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -812,7 +808,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_butcher"
 				command: "/advancement grant @p only custom:trade_toolsmith"
-				player_command: false
 			}]
 		}
 		{
@@ -843,6 +838,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -851,7 +847,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_cartographer"
 				command: "/advancement grant @p only custom:trade_enderian"
-				player_command: false
 			}]
 		}
 		{
@@ -889,6 +884,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -897,7 +893,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_butcher"
 				command: "/advancement grant @p only custom:trade_engineer"
-				player_command: false
 			}]
 		}
 		{
@@ -977,6 +972,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -985,7 +981,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_armorer"
 				command: "/advancement grant @p only custom:trade_florist"
-				player_command: false
 			}]
 		}
 		{
@@ -1006,7 +1001,7 @@
 				{
 					id: "0C1F100CD4CF90F8"
 					type: "item"
-					item: "ars_nouveau:wilden_horn"
+					item: "irons_spellbooks:cinder_essence"
 					count: 5L
 					consume_items: true
 				}
@@ -1036,6 +1031,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -1044,7 +1040,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_armorer"
 				command: "/advancement grant @p only custom:trade_hunter"
-				player_command: false
 			}]
 		}
 		{
@@ -1079,6 +1074,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -1087,7 +1083,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_armorer"
 				command: "/advancement grant @p only custom:trade_netherian"
-				player_command: false
 			}]
 		}
 		{
@@ -1143,6 +1138,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -1151,7 +1147,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_cleric"
 				command: "/advancement grant @p only custom:trade_oceanographer"
-				player_command: false
 			}]
 		}
 		{
@@ -1207,6 +1202,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -1215,7 +1211,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_armorer"
 				command: "/advancement grant @p only custom:trade_woodworker"
-				player_command: false
 			}]
 		}
 		{
@@ -1271,6 +1266,8 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
+					only_from_crafting: false
 				}
 			]
 			rewards: [{
@@ -1279,7 +1276,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_cartographer"
 				command: "/advancement grant @p only custom:trade_miner"
-				player_command: false
 			}]
 		}
 		{
@@ -1310,6 +1306,7 @@
 					type: "item"
 					item: "minecraft:emerald"
 					count: 20L
+					consume_items: true
 				}
 			]
 			rewards: [{
@@ -1318,7 +1315,6 @@
 				title: "Claim trading contract"
 				icon: "quest_giver:trading_contract_armorer"
 				command: "/advancement grant @p only custom:trade_beekeeper"
-				player_command: false
 			}]
 		}
 		{
@@ -1344,12 +1340,19 @@
 				type: "checkmark"
 				title: "Прочитай"
 			}]
-			rewards: [{
-				id: "261360F8E570AB79"
-				type: "xp"
-				auto: "enabled"
-				xp: 1
-			}]
+			rewards: [
+				{
+					id: "261360F8E570AB79"
+					type: "xp"
+					auto: "enabled"
+					xp: 1
+				}
+				{
+					id: "4DB5E42E70011D83"
+					type: "item"
+					item: "minecraft:compass"
+				}
+			]
 		}
 		{
 			title: "Параглайдер"
@@ -1563,7 +1566,7 @@
 				}
 			}
 			x: 5.5d
-			y: -5.0d
+			y: -6.5d
 			description: ["Боевая система этого модпака основана на моде Epic Fight. Нажмите \"R\" (клавиша настраивается), чтобы активировать боевой режим, который позволит вам использовать навыки и проводить специальные атаки! Однако в некоторых случаях вы все равно можете захотеть использовать ванильные атаки, например, когда вас схватят арахнорхиды из измерения Вечного Рассвета. Обратите внимание, что ванильные атаки наносят вдвое меньше урона, чем в боевом режиме, просто потому, что вы не привязываетесь к своим атакам."]
 			dependencies: ["60154554DCD1D411"]
 			id: "601DF1F35CF01A0A"
@@ -1595,7 +1598,11 @@
 		}
 		{
 			title: "Безделушки и многое другое"
-			icon: "ars_nouveau:ring_of_greater_discount"
+			icon: {
+				id: "blue_skies:poison_arc"
+				Count: 1b
+				tag: { }
+			}
 			x: 3.75d
 			y: -7.5d
 			description: [
@@ -1644,6 +1651,30 @@
 				type: "xp"
 				auto: "enabled"
 				xp: 1
+			}]
+		}
+		{
+			title: "Tip for Fighting"
+			icon: "habitat:fairy_spore_lantern"
+			x: 5.0d
+			y: -4.5d
+			description: [
+				"1) You can cancel your forward movement while attacking by holding \"S\"."
+				""
+				"2) You have the weakness effect when your stamina bar is drained. Use your stamina sparingly."
+				"\\n3) Jump attacks do more damage to your enemies."
+			]
+			dependencies: ["601DF1F35CF01A0A"]
+			id: "0AB45BDD23F2E85A"
+			tasks: [{
+				id: "14B632E87C7DA8DA"
+				type: "checkmark"
+				title: "Read"
+			}]
+			rewards: [{
+				id: "3F0FE4919A0EC5D6"
+				type: "xp"
+				xp: 3
 			}]
 		}
 	]
