@@ -1,7 +1,7 @@
 {
 	id: "67A1142E51E58603"
-	group: ""
-	order_index: 1
+	group: "1F30A450079557C6"
+	order_index: 2
 	filename: "a_little_help"
 	title: "Не большая... Помощь"
 	icon: "minecraft:skeleton_skull"
@@ -24,6 +24,7 @@
 			"... Хотя иногда удача просто не на вашей стороне. В таком случае возьмите эти принадлежности и попробуйте снова, если вам это понадобится!\\n"
 			"Не сдавайтесь! Время на вашей стороне. Не забудьте заглянуть на другие вкладки книги квестов, чтобы узнать больше об этом мире и его уникальной механике."
 		]
+		dependencies: ["39AE937D10D1E511"]
 		hide: true
 		size: 6.0d
 		id: "2D58B982762B47E4"
@@ -47,11 +48,11 @@
 					Count: 1b
 					tag: {
 						RepairCost: 1
-						Damage: 0
 						Enchantments: [{
 							lvl: 3s
 							id: "minecraft:sharpness"
 						}]
+						Damage: 0
 					}
 				}
 			}
