@@ -10,8 +10,8 @@
 	quests: [
 		{
 			title: "&9&lПолучить Торговый Свиток Бронника"
-			x: 3.0d
-			y: 2.5d
+			x: 1.0d
+			y: 3.0d
 			id: "7F2E0798CDC00FA3"
 			tasks: [{
 				id: "652B76F89DFD2A04"
@@ -38,8 +38,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Пчеловода"
-			x: 5.5d
-			y: 2.5d
+			x: 2.0d
+			y: 5.0d
 			id: "06D9C7BA36906C17"
 			tasks: [{
 				id: "484B11EC79BF1044"
@@ -66,8 +66,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 0.5d
+			x: 3.0d
+			y: 3.0d
 			id: "5C8F23D62A97DFBC"
 			tasks: [{
 				id: "566B232E569CE99B"
@@ -94,8 +94,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Картографа"
-			x: 7.5d
-			y: 2.5d
+			x: 3.0d
+			y: 5.0d
 			id: "29420C2137124E3E"
 			tasks: [{
 				id: "15C4F8DF8DA81743"
@@ -122,8 +122,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Священика "
-			x: 9.0d
-			y: 2.5d
+			x: 3.0d
+			y: 4.0d
 			id: "032DF3ADCFF8347F"
 			tasks: [{
 				id: "67B5BEB031216948"
@@ -150,7 +150,7 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Эндериана"
-			x: 1.5d
+			x: 1.0d
 			y: 4.0d
 			id: "0C62F7AEC8DA7D6C"
 			tasks: [{
@@ -178,8 +178,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Инженера"
-			x: 3.0d
-			y: 4.0d
+			x: 1.0d
+			y: 7.0d
 			id: "4F88E2203AF4B696"
 			tasks: [{
 				id: "76B24891274BEBD1"
@@ -206,7 +206,7 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Фермера"
-			x: 4.5d
+			x: 2.0d
 			y: 4.0d
 			id: "0DCB413EF4AAA229"
 			tasks: [{
@@ -234,8 +234,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Рыболова"
-			x: 6.5d
-			y: 4.0d
+			x: 2.0d
+			y: 6.0d
 			id: "5AB6ADC191A870C1"
 			tasks: [{
 				id: "7E11A076241FDB40"
@@ -262,8 +262,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Лучника"
-			x: 8.5d
-			y: 4.0d
+			x: 3.0d
+			y: 6.0d
 			id: "1DBD44621CF141F7"
 			tasks: [{
 				id: "0E5FCE0F62144E4F"
@@ -290,8 +290,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Флориста"
-			x: 1.5d
-			y: 5.5d
+			x: 1.0d
+			y: 5.0d
 			id: "0C1E10060FA023C1"
 			tasks: [{
 				id: "0E5289162A6FF417"
@@ -318,8 +318,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Охотника"
-			x: 3.5d
-			y: 5.5d
+			x: 1.0d
+			y: 8.0d
 			id: "19B9A3C7AF2524FA"
 			tasks: [{
 				id: "1D3ED633F235806A"
@@ -346,8 +346,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Кожевника"
-			x: 6.0d
-			y: 5.5d
+			x: 2.0d
+			y: 7.0d
 			id: "5799C4549C5C15A6"
 			tasks: [{
 				id: "48D1D8F1998C4582"
@@ -374,8 +374,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Библиотекаря"
-			x: 7.5d
-			y: 5.5d
+			x: 2.0d
+			y: 9.0d
 			id: "22DC67FDE0661DCB"
 			tasks: [{
 				id: "779C8F424BF18BC8"
@@ -402,8 +402,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Каменщика"
-			x: 9.0d
-			y: 5.5d
+			x: 3.0d
+			y: 7.0d
 			id: "108B513B5B2E9C70"
 			tasks: [{
 				id: "26DE4BF3F023680F"
@@ -430,8 +430,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Незериана"
-			x: 2.0d
-			y: 7.0d
+			x: 1.0d
+			y: 6.0d
 			id: "458E9812B8D915C7"
 			tasks: [{
 				id: "2C5DACD756F8D43B"
@@ -458,8 +458,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Океанографа"
-			x: 4.0d
-			y: 7.0d
+			x: 2.0d
+			y: 3.0d
 			id: "49E36CCD9E188115"
 			tasks: [{
 				id: "258D1F914324184C"
@@ -486,8 +486,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Пастуха"
-			x: 6.0d
-			y: 7.0d
+			x: 2.0d
+			y: 8.0d
 			id: "3366CB8385EF82BF"
 			tasks: [{
 				id: "34DC5E891CDBB15F"
@@ -514,8 +514,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Мастера по Инструментам"
-			x: 8.0d
-			y: 7.0d
+			x: 3.0d
+			y: 9.0d
 			id: "36CEF24CC18BC136"
 			tasks: [{
 				id: "59397C1EED3BE270"
@@ -542,8 +542,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Оружейника"
-			x: 9.5d
-			y: 7.0d
+			x: 3.0d
+			y: 8.0d
 			id: "08D42D19765C3FD2"
 			tasks: [{
 				id: "4DCE6BFD6B0DDB2B"
@@ -570,8 +570,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Лесоруба"
-			x: 3.0d
-			y: 8.5d
+			x: 1.0d
+			y: 9.0d
 			id: "53EFD17FE31AF7FD"
 			tasks: [{
 				id: "63238F3E46C4ABE3"
@@ -598,8 +598,8 @@
 		}
 		{
 			title: "Посетить Биом Дымчатые Горы"
-			x: 1.5d
-			y: 1.0d
+			x: 2.0d
+			y: 0.5d
 			id: "5A46A98020395A41"
 			tasks: [{
 				id: "3EAB79F22282A4E1"
@@ -618,7 +618,7 @@
 		{
 			title: "Посетить Биом Пепельные Пустоши"
 			x: 3.0d
-			y: 1.0d
+			y: 0.5d
 			id: "7287F9F2D9A722D7"
 			tasks: [{
 				id: "0E46D7CAE906AC64"
@@ -636,8 +636,8 @@
 		}
 		{
 			title: "Посетить Биом Белая Гора"
-			x: 5.0d
-			y: 1.0d
+			x: 1.0d
+			y: 0.5d
 			id: "4723C40D54AA9F3C"
 			tasks: [
 				{
@@ -667,8 +667,8 @@
 		}
 		{
 			title: "Найти Замок из Idas"
-			x: 8.0d
-			y: 1.0d
+			x: 7.0d
+			y: 2.0d
 			id: "42FD5FA83C62490F"
 			tasks: [{
 				id: "0FA3C2D11C6D9E4D"
@@ -703,8 +703,8 @@
 		}
 		{
 			title: "&9&lПолучить Торговый Свиток Шахтера"
-			x: 10.0d
-			y: 4.0d
+			x: 4.0d
+			y: 3.0d
 			id: "5DD305F560236CFC"
 			tasks: [{
 				id: "58323A3D58E87339"
@@ -783,59 +783,60 @@
 				dimension: "minecraft:overworld"
 			}]
 			rewards: [
-				{
-					id: "2F070110E161B9F8"
-					type: "item"
-					auto: "invisible"
-					item: "antiqueatlas:empty_antique_atlas"
-				}
+				
 				{
 					id: "410AA390E054E967"
 					type: "command"
 					auto: "invisible"
 					command: "/gamerule sendCommandFeedback false"
-					player_command: false
-				}
-				{
-					id: "70A7F202E8A994DE"
-					type: "item"
-					auto: "invisible"
-					item: "minecraft:compass"
 				}
 				{
 					id: "10C5822F8E2520D0"
 					type: "command"
 					auto: "invisible"
 					command: "/gamerule keepInventory true"
-					player_command: false
 				}
 				{
 					id: "5FD0AB5036A688FE"
 					type: "command"
 					auto: "invisible"
 					command: "/gamerule playersSleepingPercentage 35"
-					player_command: false
 				}
 				{
 					id: "794FB9B72BBB0E63"
 					type: "command"
 					auto: "invisible"
 					command: "/gamerule spawnRadius 80"
-					player_command: false
 				}
 				{
 					id: "6F86E31ADC125640"
 					type: "command"
 					auto: "invisible"
 					command: "/gamerule keepSkills true"
-					player_command: false
 				}
 				{
 					id: "242FF8EBF5E31E24"
 					type: "command"
 					auto: "invisible"
 					command: "/loot give @p loot minecraft:village"
-					player_command: false
+				}
+				{
+					id: "67DC70E6BD4D2C21"
+					type: "command"
+					auto: "enabled"
+					command: "/gamerule weightPenalty 40"
+				}
+				{
+					id: "4EF4BB54C3517365"
+					type: "command"
+					auto: "enabled"
+					command: "/dc addWaypoint @p #custom:village \"First Village\""
+				}
+				{
+					id: "711AE735FF2AA67D"
+					type: "command"
+					auto: "enabled"
+					command: "/gamerule reducedDebugInfo true"
 				}
 			]
 		}
@@ -854,7 +855,6 @@
 				type: "command"
 				auto: "invisible"
 				command: "/tellraw @p [\"\",{\"text\":\"That was your first \"},{\"text\":\"death\",\"bold\":true,\"color\":\"red\"},{\"text\":\". Although most of your inventory items will stay with you, some of your valuable items may be lost in your corpse, which decomposes after 10 minutes. On top of that, some of your item durability and experience points have been depreciated as well. You can check where your corpse is by pressing \\\"\"},{\"text\":\"I\",\"bold\":true},{\"text\":\"\\\".\\n\\nAccumulated deaths in short periods of time will cause higher level of \\\"\"},{\"text\":\"Fractured Soul\",\"bold\":true,\"color\":\"light_purple\"},{\"text\":\"\\\", which increases durability and experience loss even further.\"}]"
-				player_command: false
 			}]
 		}
 		{
@@ -868,32 +868,21 @@
 				advancement: "simple_mobs:notorious"
 				criterion: ""
 			}]
-			rewards: [{
-				id: "0206FC6701ED673E"
-				type: "command"
-				auto: "invisible"
-				command: "/tellraw @p [\"\",{\"text\":\"It seems your reputation is \"},{\"text\":\"bad \",\"color\":\"red\"},{\"text\":\"among villagers. Villagers will now stop trading with you. If your reputation drops even further, guards and iron golems may start attacking you. You can improve your reputation by handing in a \"},{\"text\":\"bundled currency \",\"color\":\"green\"},{\"text\":\"into the ledger chests inside guild houses or stalls.\"}]"
-				player_command: false
-			}]
-		}
-		{
-			x: 12.0d
-			y: 9.5d
-			id: "01E76C073D0AAA07"
-			tasks: [{
-				id: "6BA0AF1B0555443C"
-				type: "stat"
-				stat: "minecraft:damage_dealt"
-				value: 50
-			}]
-			rewards: [{
-				id: "707451785BD080B1"
-				type: "command"
-				auto: "invisible"
-				command: "/tellraw @p [\"\",{\"text\":\"You can press \"},{\"text\":\"\\\"R\\\"\",\"bold\":true,\"color\":\"green\"},{\"text\":\" to Enter Combat Stance. Damage dealt in regular stance deals \"},{\"text\":\"half\",\"bold\":true,\"color\":\"red\"},{\"text\":\" as much damage as you would in combat stance. \"}]"
-				player_command: false
-			}]
-		}
+			rewards: [
+				{
+					id: "0206FC6701ED673E"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"It seems your reputation is \"},{\"text\":\"bad\",\"bold\":true,\"color\":\"red\"},{\"text\":\" among villagers. You have been \"},{\"text\":\"forgiven\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\" since this is your first offense... But next time, villagers will stop trading with you. If your reputation drops even further, guards and iron golems may start attacking you. You can improve your reputation by handing in \"},{\"text\":\"bundled currency\",\"bold\":true,\"color\":\"green\"},{\"text\":\" (craftable) \",\"italic\":true},{\"text\":\"into the ledger chests inside guild houses or stalls.\"}]"
+				}
+				{
+					id: "71CF84030CC57DE5"
+					type: "command"
+					auto: "invisible"
+					command: "/setreputation reputation:villager @p 0"
+				}
+			]
+		}	
 		{
 			x: 10.0d
 			y: 10.5d
@@ -909,7 +898,7 @@
 				type: "command"
 				auto: "invisible"
 				command: "/tellraw @p [\"\",{\"text\":\"It seems you have found the means to travel to \"},{\"text\":\"the Nether\",\"bold\":true,\"color\":\"red\"},{\"text\":\". This will bring chaos to not only you, but to the \"},{\"text\":\"entire realm\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\". Once you enter, it cannot be undone. Make sure you have the resolve to move forward before stepping in the portal.\"}]"
-				player_command: false
+
 			}]
 		}
 		{
@@ -928,52 +917,33 @@
 				type: "command"
 				auto: "invisible"
 				command: "/tellraw @p {\"text\":\"Congratulations on taming your first horse! You can now set it to your personal horse (Press \\\"J\\\"), and call your horse from anywhere in the realm (Press \\\"H).\"}"
-				player_command: false
+
 			}]
-		}
-		{
-			title: "Книга Навыков"
-			x: 5.5d
-			y: 10.5d
-			id: "01FEFFDF4C5C351F"
-			tasks: [{
-				id: "7F551EDDDAA433AB"
-				type: "item"
-				item: {
-					id: "epicfight:skillbook"
-					Count: 1b
-					tag: {
-						skill: "epicfight:stamina_pillager"
-					}
-				}
-				consume_items: false
-				only_from_crafting: false
-			}]
-			rewards: [{
-				id: "152C911A2EDB4822"
-				type: "command"
-				auto: "invisible"
-				command: "/tellraw @p {\"text\":\"Congratulations on obtaining your first skill! You can now see a list of skills you've acquired, and change the specific skills you want to equip (Press \\\"K\\\").\"}"
-				player_command: false
-			}]
-		}
+		}		
 		{
 			title: "Найти Деревню из Custom"
-			x: 12.0d
-			y: 11.5d
+			x: 9.5d
+			y: 6.0d
 			id: "4B8C2FA15D33F227"
 			tasks: [{
 				id: "20823B8E47A05413"
 				type: "structure"
 				structure: "#custom:village"
 			}]
-			rewards: [{
-				id: "7B0591F07EC96892"
-				type: "command"
-				auto: "invisible"
-				command: "/tellraw @p [\"\",{\"text\":\"Seems you've found a village! You can interact with villagers who have exclamation marks above their head. Some of them provide \"},{\"text\":\"knowledge \",\"bold\":true,\"color\":\"green\"},{\"text\":\"required to work with certain blocks such as Loom, Fletching Table, etc... But for most of the useful blocks, such as Anvil, Enchanting Table, Smithing Table, etc... You will want to learn it from the \"},{\"text\":\"Guild Master\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\". Find villagers wearing blue robe and start your journey!\"}]"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "7B0591F07EC96892"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p [\"\",{\"text\":\"Seems you've found a village! You can interact with villagers who have exclamation marks above their head. Some of them provide \"},{\"text\":\"knowledge \",\"bold\":true,\"color\":\"green\"},{\"text\":\"required to work with certain blocks such as Loom, Fletching Table, etc... But for most of the useful blocks, such as Anvil, Enchanting Table, Smithing Table, etc... You will want to learn it from the \"},{\"text\":\"Guild Master\",\"bold\":true,\"color\":\"aqua\"},{\"text\":\". Find villagers wearing blue robe and start your journey!\"}]"
+				}
+				{
+					id: "703945A1131E180E"
+					type: "command"
+					auto: "enabled"
+					command: "/dc removeWaypoint @p \"First Village\""
+				}
+			]
 		}
 		{
 			title: "Торговый Контракст с Гильдией Бронников"
@@ -1028,8 +998,7 @@
 				id: "01214ACE5D82E719"
 				type: "command"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",{\"text\":\"Seems you've obtained a trading scroll! Note that trade prices are absurdly \"},{\"text\":\"high \",\"bold\":true,\"color\":\"red\"},{\"text\":\"when you are have neutral reputation. Gain higher reputation by completing quests from the Quest Book, or Villager quests. Once villagers start to like you, you will see the trade prices drop \"},{\"text\":\"tremendously\",\"bold\":true,\"color\":\"green\"},{\"text\":\"!\"}]"
-				player_command: false
+				command: "/tellraw @p [\"\",{\"text\":\"Seems you've obtained a trading scroll! Note that trade prices are absurdly \"},{\"text\":\"high \",\"bold\":true,\"color\":\"red\"},{\"text\":\"when you are have neutral reputation. Gain higher reputation by completing Villager quests. Once villagers start to like you, you will see the trade prices drop \"},{\"text\":\"tremendously\",\"bold\":true,\"color\":\"green\"},{\"text\":\"!\"}]"
 			}]
 		}
 		{
@@ -1308,7 +1277,6 @@
 				type: "command"
 				auto: "invisible"
 				command: "/advancement revoke @p only custom:tricked/tricked"
-				player_command: false
 			}]
 		}
 		{
@@ -1326,7 +1294,7 @@
 				type: "command"
 				auto: "invisible"
 				command: "/tellraw @p [\"\",{\"text\":\"You have obtained an \"},{\"text\":\"essence\",\"bold\":true,\"color\":\"red\"},{\"text\":\". You'll need to consume it for the horned statue to recognize it.\"}]"
-				player_command: false
+
 			}]
 		}
 		{
@@ -1335,24 +1303,24 @@
 			y: 5.5d
 			id: "1BF783F3710F1DCC"
 			tasks: [{
-				id: "4BABC121C73B5659"
+				id: "2C2A64D0FD9494EC"
 				type: "item"
 				item: {
 					id: "minecraft:filled_map"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"A Suspicious Map\"}"
+							Lore: ["{\"text\":\"A map given by a fallen adventurer to locate a church.\"}"]
+						}
 						Decorations: [{
-							x: 2752.0d
-							z: -1712.0d
-							id: "+"
 							type: 26b
 							rot: 180.0d
+							id: "+"
+							z: 32.0d
+							x: 3840.0d
 						}]
-						map: 10
-						display: {
-							Lore: ["{\"text\":\"A map given by a fallen adventurer to locate a church.\"}"]
-							Name: "{\"text\":\"A Suspicious Map\"}"
-						}
+						map: 4
 					}
 				}
 				consume_items: false
@@ -1373,26 +1341,28 @@
 			y: 6.5d
 			id: "4B1EE4CEB29F9553"
 			tasks: [{
-				id: "379BBF5DB43D5EBD"
+				id: "1BD47793B99125A4"
 				type: "item"
 				item: {
 					id: "minecraft:filled_map"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"Location of the Father\"}"
+							Lore: ["{\"text\":\"Father Gascoigne's whereabouts.\"}"]
+						}
 						Decorations: [{
-							x: -3456.0d
-							z: -6992.0d
-							id: "+"
 							type: 26b
 							rot: 180.0d
+							id: "+"
+							z: 736.0d
+							x: -4400.0d
 						}]
-						map: 11
-						display: {
-							Lore: ["{\"text\":\"Father Gascoigne's whereabouts.\"}"]
-							Name: "{\"text\":\"Location of the Father\"}"
-						}
+						map: 3
 					}
 				}
+				only_from_crafting: false
+				match_nbt: true
 			}]
 			rewards: [{
 				id: "0F361DAC16E3F56F"
@@ -1408,26 +1378,29 @@
 			y: 8.0d
 			id: "4BB2FAEBF28B584E"
 			tasks: [{
-				id: "071AFA7CF87C2444"
+				id: "57A723698221D811"
 				type: "item"
 				item: {
 					id: "minecraft:filled_map"
 					Count: 1b
 					tag: {
+						display: {
+							Name: "{\"text\":\"The True End's Portal\"}"
+							Lore: ["{\"text\":\"A map leading you to the most powerful being within the realm.\"}"]
+						}
 						Decorations: [{
-							x: -2992.0d
-							z: -2464.0d
-							id: "+"
 							type: 26b
+							x: -1456.0d
+							id: "+"
+							z: -416.0d
 							rot: 180.0d
 						}]
-						map: 16
-						display: {
-							Lore: ["{\"text\":\"A map leading you to the most powerful being within the realm.\"}"]
-							Name: "{\"text\":\"The True End's Portal\"}"
-						}
+						map: 2
 					}
 				}
+				consume_items: false
+				only_from_crafting: false
+				match_nbt: true
 			}]
 			rewards: [{
 				id: "2274C54EF9ADD546"
@@ -1435,6 +1408,42 @@
 				auto: "invisible"
 				ignore_reward_blocking: true
 				stage: "skull"
+			}]
+		}
+		{
+			title: "keep dying"
+			x: 4.0d
+			y: 12.0d
+			id: "39AE937D10D1E511"
+			tasks: [{
+				id: "5958189AB8F61142"
+				type: "advancement"
+				advancement: "custom:death"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "01BE88C49BEF5128"
+				type: "command"
+				auto: "enabled"
+				command: "/tellraw @p [\"\",{\"text\":\"\\nIf you need a little help, click on the \\\"\"},{\"text\":\"Quests\",\"bold\":true,\"color\":\"green\"},{\"text\":\"\\\" tab while accessing your inventory.\\n \"}]"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 3.0d
+			id: "3F08F2F803F87980"
+			tasks: [{
+				id: "51880F9956E4D192"
+				type: "stat"
+				stat: "minecraft:walk_one_cm"
+				value: 1000
+			}]
+			rewards: [{
+				id: "6CF76406E5D73F1A"
+				type: "advancement"
+				auto: "enabled"
+				advancement: "custom:100_blocks"
+				criterion: ""
 			}]
 		}
 	]
