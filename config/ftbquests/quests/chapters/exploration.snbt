@@ -1,7 +1,7 @@
 {
 	id: "1A7295F32C7D70EA"
-	group: ""
-	order_index: 6
+	group: "0A520B482648497B"
+	order_index: 4
 	filename: "exploration"
 	title: "Исследование"
 	icon: "supplementaries:globe"
@@ -138,12 +138,13 @@
 					Count: 1b
 					tag: {
 						display: {
+							Name: "{\"text\":\"§bEverbright Portal\"}"
 							Lore: [
 								"{\"text\":\"Creates a lit Everbright portal.\"}"
 								"{\"text\":\"Requires the same space as a\"}"
 								"{\"text\":\"Nether Portal\"}"
 							]
-							Name: "{\"text\":\"§bEverbright Portal\"}"
+							
 						}
 					}
 				}
@@ -164,12 +165,13 @@
 					Count: 1b
 					tag: {
 						display: {
+							Name: "{\"text\":\"§bEverdawn Portal\"}"
 							Lore: [
 								"{\"text\":\"Creates a lit EverDawn portal.\"}"
 								"{\"text\":\"Requires the same space as a\"}"
 								"{\"text\":\"Nether Portal\"}"
 							]
-							Name: "{\"text\":\"§bEverdawn Portal\"}"
+							
 						}
 					}
 				}
