@@ -1,7 +1,7 @@
 {
 	id: "548E6559E6915C5F"
-	group: ""
-	order_index: 10
+	group: "25047313B704629A"
+	order_index: 0
 	filename: "lost__found_quest_map_replacements"
 	title: "Бюро Находок (Замена карты квеста)"
 	icon: "minecraft:filled_map"
@@ -14,6 +14,10 @@
 				id: "minecraft:filled_map"
 				Count: 1b
 				tag: {
+					display: {
+						Name: "{\"text\":\"Village\"}"
+						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
+					}
 					Decorations: [{
 						x: -496.0d
 						z: -192.0d
@@ -22,10 +26,7 @@
 						rot: 180.0d
 					}]
 					map: 0
-					display: {
-						Lore: ["{\"text\":\"A map marking the closest village near you... I wonder why it's here.\"}"]
-						Name: "{\"text\":\"Village\"}"
-					}
+					
 				}
 			}
 			x: -4.0d
@@ -48,15 +49,24 @@
 					stage: "guildmaster2"
 				}
 			]
-			rewards: [{
-				id: "751657E6C6CE4190"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:guildmaster0"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "751657E6C6CE4190"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:guildmaster0"
+				}
+				{
+					id: "33293C72497AEEE2"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p goblinsanddungeons:ruined_keep \"Main Quest - Goblin King's Keep (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -98,15 +108,24 @@
 					stage: "guildmaster3"
 				}
 			]
-			rewards: [{
-				id: "18C97E8EBE7A45D2"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:guildmaster1"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "18C97E8EBE7A45D2"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:guildmaster1"
+				}
+				{
+					id: "55DFD73443DE0C25"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:ogre_dwelling \"Main Quest - Corrupted Ogre's Dwelling (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -148,15 +167,24 @@
 					stage: "guildmaster4"
 				}
 			]
-			rewards: [{
-				id: "0458DAB209866978"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:guildmaster2"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "0458DAB209866978"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:guildmaster2"
+				}
+				{
+					id: "7C835CEC1DA23311"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:arena \"Main Quest - Knight Rober's Arena (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -198,15 +226,24 @@
 					stage: "guildmaster5"
 				}
 			]
-			rewards: [{
-				id: "6E4588DF0E8B4F88"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:guildmaster3"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "6E4588DF0E8B4F88"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:guildmaster3"
+				}
+				{
+					id: "5AFB06EE096A48F7"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:ninetail_farm \"Main Quest - Ninetail's Farm (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -248,15 +285,24 @@
 					stage: "guildmaster6"
 				}
 			]
-			rewards: [{
-				id: "3F193582DBBA82DC"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:guildmaster4"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "3F193582DBBA82DC"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:guildmaster4"
+				}
+				{
+					id: "711E074210E02BDC"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:floating_island \"Main Quest - Floating Island (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -298,15 +344,24 @@
 					stage: "guildmaster7"
 				}
 			]
-			rewards: [{
-				id: "5F6531581F0F370B"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:guildmaster5"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "5F6531581F0F370B"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:guildmaster5"
+				}
+				{
+					id: "21772D7D9851344B"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:sentinel_tree \"Main Quest - Guardian Tree (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -348,15 +403,24 @@
 					stage: "guildmaster8"
 				}
 			]
-			rewards: [{
-				id: "4BE395838A48DFF0"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:guildmaster6"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "4BE395838A48DFF0"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:guildmaster6"
+				}
+				{
+					id: "5CCFAC4BC9AE5229"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:giant_altar \"Main Quest - Fire Giant's Altar (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -389,15 +453,24 @@
 				type: "checkmark"
 				title: "Заменить утерянную карту"
 			}]
-			rewards: [{
-				id: "43D6ADD22171AAD6"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:armorer1"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "43D6ADD22171AAD6"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:armorer1"
+				}
+				{
+					id: "141585A219F5E3B7"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:armorer_dungeon \"Armorer's Request (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -439,15 +512,24 @@
 					stage: "cartographer1"
 				}
 			]
-			rewards: [{
-				id: "0F47BF9881F39ECE"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:cartographer1"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "0F47BF9881F39ECE"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:cartographer1"
+				}
+				{
+					id: "4349ECF408D352E1"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:dojo \"Foreign Outlaws' Dojo (Compass)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -489,15 +571,24 @@
 					stage: "cartographer2"
 				}
 			]
-			rewards: [{
-				id: "4FB61E405470CDC9"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:cartographer2"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "4FB61E405470CDC9"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:cartographer2"
+				}
+				{
+					id: "4BEB41B7D187C0AC"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:summon_podium \"Summon Podium (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -539,15 +630,24 @@
 					stage: "dg2q"
 				}
 			]
-			rewards: [{
-				id: "57899492D3190210"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:dg2q"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "57899492D3190210"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:dg2q"
+				}
+				{
+					id: "0AB49DBAD72527EC"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:church \"The Cultist's Prison (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -589,15 +689,24 @@
 					stage: "dg2q2"
 				}
 			]
-			rewards: [{
-				id: "4CB5B4866EE0DCC6"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:dg2q2"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "4CB5B4866EE0DCC6"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:dg2q2"
+				}
+				{
+					id: "53B8FB24E0C1F9BC"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:church \"Father’s Church (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -677,15 +786,24 @@
 					stage: "guard1"
 				}
 			]
-			rewards: [{
-				id: "0AA8775F31D9B642"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:guard1"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "0AA8775F31D9B642"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:guard1"
+				}
+				{
+					id: "1101AA3A8BBF2BB6"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p quest_giver:pillager_hideout \"Rescue Request - Pillager Hideout (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -727,15 +845,24 @@
 					stage: "guard2"
 				}
 			]
-			rewards: [{
-				id: "142917F38FABE7FB"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:guard2"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "142917F38FABE7FB"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:guard2"
+				}
+				{
+					id: "047CD2BC3623F1DB"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p quest_giver:pillager_base \"Rescue Request - Pillager Base (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -777,15 +904,24 @@
 					stage: "guard3"
 				}
 			]
-			rewards: [{
-				id: "39B926B467866686"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:guard3"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "39B926B467866686"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:guard3"
+				}
+				{
+					id: "49967491C28C4341"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p quest_giver:cave_dwelling \"Extermination Request - Cave Dweller (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -827,15 +963,24 @@
 					stage: "guard4"
 				}
 			]
-			rewards: [{
-				id: "0948D6C87B11C9E5"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:guard4"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "0948D6C87B11C9E5"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:guard4"
+				}
+				{
+					id: "74A11F0D10798E54"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p quest_giver:giant_hideout \"Extermination Request - The Giant (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -868,15 +1013,23 @@
 				type: "checkmark"
 				title: "Заменить утерянную карту"
 			}]
-			rewards: [{
-				id: "672D549FA97EE6C8"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:hunter1"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "672D549FA97EE6C8"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:hunter1"
+				}
+				{
+					id: "65ED40BBA6B9D560"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					command: "/dc addWaypoint @p custom:rootless \"Floating Palace (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -909,15 +1062,24 @@
 				type: "checkmark"
 				title: "Replace Lost Map"
 			}]
-			rewards: [{
-				id: "00E770AC02EF56A9"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:librarian1"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "00E770AC02EF56A9"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:librarian1"
+				}
+				{
+					id: "4E6D5E4D6B3349C6"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:librarian_ruin \"Librarian's Request (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -959,15 +1121,24 @@
 					stage: "miner1"
 				}
 			]
-			rewards: [{
-				id: "6C387401AA5B2003"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:miner1"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "6C387401AA5B2003"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:miner1"
+				}
+				{
+					id: "0ABC50F6A06CB1AA"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:fallen_house \"Miner's Request - A Kindred Spirit (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -1009,15 +1180,24 @@
 					stage: "miner2"
 				}
 			]
-			rewards: [{
-				id: "20EFD385DABBF4A5"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:miner2"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "20EFD385DABBF4A5"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:miner2"
+				}
+				{
+					id: "78E38136C6402BED"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:wolf_hideout \"Miner's Request - Creature Extermination (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -1144,15 +1324,24 @@
 				type: "checkmark"
 				title: "Заменить утерянную карту"
 			}]
-			rewards: [{
-				id: "5293B6C4A4B609B8"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:netherian1"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "5293B6C4A4B609B8"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:netherian1"
+				}
+				{
+					id: "7FE460D973B84D7D"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:cult_informer_ruin \"Netherian's Request (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -1185,15 +1374,24 @@
 				type: "checkmark"
 				title: "Заменить Потерянную Карту"
 			}]
-			rewards: [{
-				id: "5291B8D6EC519120"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:pillager1"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "5291B8D6EC519120"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:pillager1"
+				}
+				{
+					id: "0FB33B8774817DAA"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p #custom:pillager_camp \"Main Quest - Pillager Camp (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -1277,15 +1475,24 @@
 				type: "checkmark"
 				title: "Заменить утерянную карту"
 			}]
-			rewards: [{
-				id: "66CB38D637BD5EF0"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:toolsmith1"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "66CB38D637BD5EF0"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:toolsmith1"
+				}
+				{
+					id: "05C4AC6B1C793EA1"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:toolsmith_ruin \"Toolsmith's Request (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "Заменить утерянную карту"
@@ -1318,15 +1525,24 @@
 				type: "checkmark"
 				title: "Заменить утерянную карту"
 			}]
-			rewards: [{
-				id: "2B03C6930B1768F1"
-				type: "command"
-				title: "Get Map"
-				icon: "simple_mobs:rolled_map_1"
-				auto: "enabled"
-				command: "/loot give @p loot minecraft:weaponsmith1"
-				player_command: false
-			}]
+			rewards: [
+				{
+					id: "2B03C6930B1768F1"
+					type: "command"
+					title: "Get Map"
+					icon: "simple_mobs:rolled_map_1"
+					auto: "enabled"
+					command: "/loot give @p loot minecraft:weaponsmith1"
+				}
+				{
+					id: "042B38F2961B6BD8"
+					type: "command"
+					title: "Waypoint"
+					icon: "minecraft:compass"
+					auto: "enabled"
+					command: "/dc addWaypoint @p custom:obsidian_spikes \"Investigate the Area the Weaponsmith Mentioned (Replaced)\""
+				}
+			]
 		}
 		{
 			title: "&6Добро пожаловать в Бюро находок"
